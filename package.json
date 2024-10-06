@@ -1,0 +1,16 @@
+{
+  "name": "websitepersonal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "sass --watch sass/main.scss public/css/main.css",
+    "build-prod": "sass sass/main.scss public/css/main.css --style=compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.79.4"
+  }
+}
