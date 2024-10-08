@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../src/components/templates/landing-page.scss"],"names":[],"mappings":"AAMA;EACI;EACA;EACA;;;AAGJ;EACI;EACA,kBAbY;EAcZ;;;AAIJ;EACI;EACA;EACA,kBApBc;;;AAuBlB;EACI;EACA;EACA,kBAzBa;;;AA4BjB;EACI;EACA;EACA,kBA9Be","file":"main.css"}
+{"version":3,"sourceRoot":"","sources":["../../src/components/atoms/icon/icons.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI","file":"main.css"}
