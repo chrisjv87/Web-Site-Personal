@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "sass --watch sass/main.scss public/css/main.css",
+    "testL": "sass --watch src/components/templates/landing-page.scss public/css/main.css",
     "build-prod": "sass sass/main.scss public/css/main.css --style=compressed"
   },
   "keywords": [],

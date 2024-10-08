@@ -1,0 +1,36 @@
+// Variables generales para separar secciones
+$primary-color: #65af4c;
+$secondary-color: #29ada2;
+$tertiary-color: #2376e4;
+$cuaternary-color: #8f19d4;
+
+body {
+    font-family: 'Arial, sans-serif';
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 10vh;
+    background-color: $primary-color;
+    margin: 20px;
+
+}
+
+.hero {
+    height: 85vh;
+    margin: 20px;
+    background-color: $secondary-color;
+}
+
+.cards {
+    height: 70vh;
+    margin: 20px;
+    background-color: $tertiary-color;
+}
+
+.footer {
+    margin: 20px;
+    color: white;
+    background-color: $cuaternary-color;
+}
