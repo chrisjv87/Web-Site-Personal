@@ -1,29 +1,26 @@
-.header__logo {
-  width: 80px;
+.icon--menu {
+  width: 40px;
   height: 40px;
-  display: flex;
+  display: inline-block;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../../../../public/assets/img/Logo-Chrisjv87.svg");
+  background-image: url("../../../../public/assets/icons/Icon-Menu-Burger.svg");
 }
 
-.hero__image {
-  display: flex;
-  width: 310px;
-  height: 500px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url("../../../../public/assets/img/profile.jpeg");
-}
-
-.card__image {
-  display: flex;
-  width: 303px;
-  height: 230px;
-  background-color: gray;
-  border-radius: 20px;
+.button {
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  border: 2px solid black;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */
