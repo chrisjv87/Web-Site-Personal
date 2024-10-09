@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "sass --watch sass/main.scss public/css/main.css",
-    "testAtom": "sass --watch src/components/atoms/icon/icons.scss public/css/main.css",
+    "testAtom": "sass --watch src/components/atoms/image/images.scss public/css/main.css",
     "testMolecule": "sass --watch src/components/molecules/ public/css/main.css",
     "testOrganism": "sass --watch src/components/organisms/ public/css/main.css",
     "testTemplate": "sass --watch src/components/templates/landing-page.scss public/css/main.css",
