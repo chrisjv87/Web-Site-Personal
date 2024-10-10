@@ -11,10 +11,10 @@
 }
 
 .hero__image {
-    display: flex;
-    width: 310px;
-    height: 500px;
-    background-size: contain;
+    display: block;
+    width: 303px;
+    height: 450px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-image: url('../../../../public/assets/img/profile.jpeg');
