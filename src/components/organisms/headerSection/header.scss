@@ -1,0 +1,34 @@
+@import '../../atoms/image/images.scss';
+@import '../../atoms/button/buttons.scss';
+
+
+.header__nav {
+    display: flex;
+    width: 335px;
+    height: 70px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: space-between;
+    .header__logo {
+        flex-shrink: 0;
+        margin: 16px;
+    }
+    
+    .header__menu {
+        display: flex;
+        align-items: center;
+        margin: 16px;
+        gap: 16px;
+        .header__item {
+            list-style-type: none;
+            .header__contact {
+                text-decoration: none;
+                color: black;
+            }
+        }
+        .header__menu-toggle {
+            border: none;
+            background-color: white;
+        }
+    }
+}
