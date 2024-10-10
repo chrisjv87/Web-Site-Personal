@@ -1,42 +1,70 @@
-.icon {
+.header__logo {
+  width: 80px;
+  height: 40px;
+  display: flex;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../../../../public/assets/img/Logo-Chrisjv87.svg");
+}
+
+.hero__image {
+  display: flex;
+  width: 310px;
+  height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../../../../public/assets/img/profile.jpeg");
+}
+
+.card__image {
+  display: flex;
+  width: 303px;
+  height: 230px;
+  background-color: gray;
+  border-radius: 20px;
+}
+
+.icon--menu {
   width: 40px;
   height: 40px;
   display: inline-block;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  background-image: url("../../../../public/assets/icons/Icon-Menu-Burger.svg");
 }
 
-.icon--linkedin {
-  background-image: url("../../../../public/assets/icons/Icon-Linkdin.svg");
-}
-
-.icon--github {
-  background-image: url("../../../../public/assets/icons/Icon-Github.svg");
-}
-
-.icon--whatsapp {
-  background-image: url("../../../../public/assets/icons/Icon-Whatsapp.svg");
-}
-
-.icon--gmail {
-  background-image: url("../../../../public/assets/icons/Icon-Gmail.svg");
-}
-
-.icon--figma {
-  background-image: url("../../../../public/assets/icons/Icon-Figma.svg");
-}
-
-.footer__icons {
-  display: flex;
+.button {
+  display: inline-block;
   width: 200px;
-  height: 50px;
-  margin: 10px;
-  padding: 10px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  border: 1px solid black;
+  height: 40px;
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.card__image {
+  position: relative;
+  background-image: url("../../../../public/assets/img/certifications.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card__button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  background-color: black;
 }
 
 /*# sourceMappingURL=main.css.map */
