@@ -1,0 +1,19 @@
+.footer__links-group {
+    width: 303px;
+    height: 275px;
+    border: 1px solid black;
+
+    .footer__links-title {
+        margin: 20px;
+        font-size: 24px;
+    }
+
+    .footer__links-options {
+        margin: 20px;
+        a {
+            font-size: 20px;
+            line-height: 1.5;
+            text-decoration: none;
+        }
+    }
+}

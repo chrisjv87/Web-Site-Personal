@@ -1,70 +1,19 @@
-.header__logo {
-  width: 80px;
-  height: 40px;
-  display: flex;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url("../../../../public/assets/img/Logo-Chrisjv87.svg");
-}
-
-.hero__image {
-  display: flex;
-  width: 310px;
-  height: 500px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url("../../../../public/assets/img/profile.jpeg");
-}
-
-.card__image {
-  display: flex;
+.footer__links-group {
   width: 303px;
-  height: 230px;
-  background-color: gray;
-  border-radius: 20px;
+  height: 275px;
+  border: 1px solid black;
 }
-
-.icon--menu {
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url("../../../../public/assets/icons/Icon-Menu-Burger.svg");
+.footer__links-group .footer__links-title {
+  margin: 20px;
+  font-size: 24px;
 }
-
-.button {
-  display: inline-block;
-  width: 200px;
-  height: 40px;
-  box-sizing: border-box;
-  overflow: hidden;
-  white-space: nowrap;
-  padding: 10px 20px;
+.footer__links-group .footer__links-options {
+  margin: 20px;
+}
+.footer__links-group .footer__links-options a {
+  font-size: 20px;
+  line-height: 1.5;
   text-decoration: none;
-  color: black;
-  border-radius: 10px;
-  border: 2px solid black;
-  text-align: center;
-}
-
-.card__image {
-  position: relative;
-  background-image: url("../../../../public/assets/img/certifications.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-.card__button {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  color: white;
-  background-color: black;
 }
 
 /*# sourceMappingURL=main.css.map */
