@@ -1,3 +1,30 @@
+.header__logo {
+  width: 80px;
+  height: 40px;
+  display: flex;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../../../../public/assets/img/Logo-Chrisjv87.svg");
+}
+
+.hero__image {
+  display: block;
+  width: 303px;
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../../../../public/assets/img/profile.jpeg");
+}
+
+.cards {
+  width: 303px;
+  height: 230px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
 .icon--menu {
   width: 35px;
   height: 35px;
@@ -23,6 +50,21 @@
   text-align: center;
 }
 
+.cards {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.card__button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  background-color: black;
+}
+
 .header__logo {
   width: 80px;
   height: 40px;
@@ -43,28 +85,34 @@
   background-image: url("../../../../public/assets/img/profile.jpeg");
 }
 
-.card__image {
+.cards {
   width: 303px;
   height: 230px;
   border-radius: 20px;
+  border: 1px solid black;
 }
 
-.hero__card {
+.cards__container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
   justify-content: space-evenly;
+  align-items: center;
   width: 343px;
-  height: 700px;
+  height: 1000px;
   border: 1px solid black;
-  margin: 50px 10px;
+  padding: 16px;
 }
-.hero__card .hero__title {
-  margin: 10px;
+.cards__container .card__about {
+  background-image: url("../../../../public/assets/img/about-me.jpeg");
 }
-.hero__card .hero__subtitle {
-  margin: 10px;
+.cards__container .card__projects {
+  background-image: url("../../../../public/assets/img/projects.jpg");
+}
+.cards__container .card__skills {
+  background-image: url("../../../../public/assets/img/skills.jpg");
+}
+.cards__container .card__certifications {
+  background-image: url("../../../../public/assets/img/certifications.jpg");
 }
 
 /*# sourceMappingURL=main.css.map */

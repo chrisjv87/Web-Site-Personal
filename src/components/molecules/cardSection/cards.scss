@@ -1,17 +1,16 @@
 @import '../../atoms/image/images.scss';
 @import '../../atoms/button/buttons.scss';
 
-.card__image {
-    position: relative;  // El div actúa como el contenedor
-    background-image: url('../../../../public/assets/img/certifications.jpg');  // Imagen como fondo
-    background-size: cover; // Hace que la imagen cubra todo el contenedor
-    background-position: center; // Centra la imagen en el contenedor
+.cards {
+    position: relative;
+    background-size: cover;
+    background-position: center;
 }
 
 .card__button {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
+position: absolute;
+bottom: 20px;
+left: 50%;
     transform: translateX(-50%);
     color: white;
     background-color: black;
