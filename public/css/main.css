@@ -1,68 +1,42 @@
-.header__logo {
-  width: 80px;
+.icon {
+  width: 40px;
   height: 40px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon--linkedin {
+  background-image: url("../../../../public/assets/icons/Icon-Linkdin.svg");
+}
+
+.icon--github {
+  background-image: url("../../../../public/assets/icons/Icon-Github.svg");
+}
+
+.icon--whatsapp {
+  background-image: url("../../../../public/assets/icons/Icon-Whatsapp.svg");
+}
+
+.icon--gmail {
+  background-image: url("../../../../public/assets/icons/Icon-Gmail.svg");
+}
+
+.icon--figma {
+  background-image: url("../../../../public/assets/icons/Icon-Figma.svg");
+}
+
+.footer__icons {
   display: flex;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url("../../../../public/assets/img/Logo-Chrisjv87.svg");
-}
-
-.hero__image {
-  display: block;
-  width: 303px;
-  height: 450px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url("../../../../public/assets/img/profile.jpeg");
-}
-
-.cards {
-  width: 303px;
-  height: 230px;
-  border-radius: 20px;
-  border: 1px solid black;
-}
-
-.icon--menu {
-  width: 35px;
-  height: 35px;
-  display: inline-block;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url("../../../../public/assets/icons/Icon-Menu-Burger.svg");
-}
-
-.button {
-  display: inline-block;
   width: 200px;
-  height: 40px;
-  box-sizing: border-box;
-  overflow: hidden;
-  white-space: nowrap;
-  padding: 10px 20px;
-  text-decoration: none;
-  color: black;
-  border-radius: 10px;
-  border: 2px solid black;
-  text-align: center;
-}
-
-.cards {
-  position: relative;
-  background-size: cover;
-  background-position: center;
-}
-
-.card__button {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  color: white;
-  background-color: black;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid black;
 }
 
 .header__logo {
@@ -92,27 +66,52 @@
   border: 1px solid black;
 }
 
-.cards__container {
+.footer__links-group {
+  width: 303px;
+  height: 275px;
+  border: 1px solid black;
+}
+.footer__links-group .footer__links-title {
+  margin: 20px;
+  font-size: 24px;
+}
+.footer__links-group .footer__links-options {
+  margin: 20px;
+}
+.footer__links-group .footer__links-options a {
+  font-size: 20px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.footer__container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 343px;
+  height: 702px;
+  border: 1px solid black;
+}
+.footer__container .footer__social-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 303px;
+}
+.footer__container .footer__social-media .footer__icons {
+  width: 195px;
+  height: 46px;
+  padding: 10px;
+  margin: 0;
+}
+.footer__container .footer__cards {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 343px;
-  height: 1000px;
-  border: 1px solid black;
-  padding: 16px;
-}
-.cards__container .card__about {
-  background-image: url("../../../../public/assets/img/about-me.jpeg");
-}
-.cards__container .card__projects {
-  background-image: url("../../../../public/assets/img/projects.jpg");
-}
-.cards__container .card__skills {
-  background-image: url("../../../../public/assets/img/skills.jpg");
-}
-.cards__container .card__certifications {
-  background-image: url("../../../../public/assets/img/certifications.jpg");
+  justify-content: space-between;
+  height: 574px;
+  width: 303px;
 }
 
 /*# sourceMappingURL=main.css.map */
