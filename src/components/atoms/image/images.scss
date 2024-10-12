@@ -1,28 +1,26 @@
-
-
-.header__logo {
-    width: 80px;
-    height: 40px;
-    display: flex;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url('../../../../public/assets/img/Logo-Chrisjv87.svg');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.hero__image {
-    display: block;
-    width: 303px;
-    height: 450px;
+.header__logo {
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    background-image: url('../../../../public/assets/img/Logo-Chrisjv87.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url('../../../../public/assets/img/profile.jpeg');
 }
 
-.cards {
-    width: 303px;
-    height: 230px;
+.hero__image {
+    display: inline-block;
+    width: 311px;
+    height: 542px;
     border-radius: 20px;
-    border: 1px solid black;
+    background-image: url('../../../../public/assets/img/profile.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }

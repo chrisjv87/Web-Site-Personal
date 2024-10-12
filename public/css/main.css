@@ -1,8 +1,160 @@
-.icon {
-  width: 40px;
-  height: 40px;
+.title {
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.text {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header__menu-toggle {
   display: inline-block;
-  background-size: contain;
+  padding: 0;
+  border: 0;
+}
+.header__menu-toggle .icon {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../../../../public/assets/icons/Icon-Menu-Burger.svg");
+  background-color: white;
+}
+
+.button {
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  padding: 10px 20px;
+  color: black;
+  border: 1px solid black;
+  background-color: rgb(199, 199, 199);
+  border-radius: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-decoration: none;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.icon {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon--linkedin {
+  background-image: url("../../../../public/assets/icons/Icon-Linkdin.svg");
+}
+
+.icon--github {
+  background-image: url("../../../../public/assets/icons/Icon-Github.svg");
+}
+
+.icon--whatsapp {
+  background-image: url("../../../../public/assets/icons/Icon-Whatsapp.svg");
+}
+
+.icon--gmail {
+  background-image: url("../../../../public/assets/icons/Icon-Gmail.svg");
+}
+
+.icon--figma {
+  background-image: url("../../../../public/assets/icons/Icon-Figma.svg");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header__logo {
+  display: inline-block;
+  width: 80px;
+  height: 40px;
+  background-image: url("../../../../public/assets/img/Logo-Chrisjv87.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero__image {
+  display: inline-block;
+  width: 311px;
+  height: 542px;
+  border-radius: 20px;
+  background-image: url("../../../../public/assets/img/profile.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.cards {
+  display: inline-block;
+  position: relative;
+  width: 343px;
+  height: 230px;
+  border-radius: 20px;
+  border: 1px solid black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card__button {
+  display: inline-block;
+  position: absolute;
+  font-size: 16px;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.icon {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -29,89 +181,151 @@
 
 .footer__icons {
   display: flex;
-  width: 200px;
+  width: 195px;
   height: 50px;
-  margin: 10px;
-  padding: 10px;
-  justify-content: center;
+  padding: 10px 0;
+  justify-content: space-between;
   align-items: center;
   gap: 10px;
-  border: 1px solid black;
 }
 
-.header__logo {
-  width: 80px;
-  height: 40px;
-  display: flex;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url("../../../../public/assets/img/Logo-Chrisjv87.svg");
-}
-
-.hero__image {
-  display: block;
-  width: 303px;
-  height: 450px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url("../../../../public/assets/img/profile.jpeg");
-}
-
-.cards {
-  width: 303px;
-  height: 230px;
-  border-radius: 20px;
-  border: 1px solid black;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .footer__links-group {
-  width: 303px;
-  height: 275px;
+  width: 343px;
+  height: 262px;
   border: 1px solid black;
 }
 .footer__links-group .footer__links-title {
-  margin: 20px;
-  font-size: 24px;
+  margin: 16px;
+  font-size: 28px;
 }
 .footer__links-group .footer__links-options {
-  margin: 20px;
+  margin: 16px;
+  padding: 0 16px;
+  list-style: none;
 }
 .footer__links-group .footer__links-options a {
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.8;
   text-decoration: none;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header__nav {
+  display: flex;
+  width: 375px;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  background-color: rgb(199, 199, 199);
+}
+.header__nav .header__menu {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.header__nav .header__menu .header__item {
+  list-style-type: none;
+}
+.header__nav .header__menu .header__item .header__contact {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.hero__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  width: 343px;
+  height: 740px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px 16px;
+}
+.hero__card .hero__title {
+  font-size: 24px;
+}
+.hero__card .hero__subtitle {
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.cards__container {
+  display: flex;
+  width: 343px;
+  height: 968px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cards__container .card__about {
+  background-image: url("../../../../public/assets/img/about-me.jpeg");
+}
+.cards__container .card__projects {
+  background-image: url("../../../../public/assets/img/projects.jpg");
+}
+.cards__container .card__skills {
+  background-image: url("../../../../public/assets/img/skills.jpg");
+}
+.cards__container .card__certifications {
+  background-image: url("../../../../public/assets/img/certifications.jpg");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .footer__container {
   display: flex;
-  position: relative;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
   width: 343px;
-  height: 702px;
-  border: 1px solid black;
+  height: 590px;
 }
 .footer__container .footer__social-media {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  width: 303px;
+  margin-bottom: 16px;
 }
-.footer__container .footer__social-media .footer__icons {
-  width: 195px;
-  height: 46px;
-  padding: 10px;
+
+* {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
-.footer__container .footer__cards {
+
+body {
+  width: 100vw;
+}
+body .header, body .hero, body .card, body .footer {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 574px;
-  width: 303px;
+  margin-bottom: 30px;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=main.css.map */

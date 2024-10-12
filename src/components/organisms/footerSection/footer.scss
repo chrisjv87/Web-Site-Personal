@@ -1,37 +1,18 @@
-@import '../../molecules/socialMedia/socialMedia.scss';
-@import '../../atoms/image/images.scss';
-@import '../../molecules/cardFooter/cards.scss';
-
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 .footer__container {
     display: flex;
-    position: relative;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
     width: 343px;
-    height: 702px;
-    border: 1px solid black;
+    height: 590px;
 
     .footer__social-media {
         display: flex;
-        align-items: center;
         justify-content: space-between;
-        width: 303px;
-
-        .footer__icons {
-            width: 195px;
-            height: 46px;
-            padding: 10px;
-            margin: 0;
-        }
+        margin-bottom: 16px;
     }
-
-    .footer__cards {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 574px;
-        width: 303px;
-    }
-}
+} 

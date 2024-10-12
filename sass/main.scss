@@ -1,0 +1,27 @@
+
+
+// Atoms
+
+@import '../src/components/atoms/text/texts.scss';
+@import '../src/components/atoms/button/buttons.scss';
+@import '../src/components/atoms/icon/icons.scss';
+@import '../src/components/atoms/image/images.scss';
+
+// Molecules
+
+@import '../src/components/molecules/cardSection/cards.scss';
+@import '../src/components/molecules/socialMedia/socialMedia.scss';
+@import '../src/components/molecules/cardFooter/cards.scss';
+
+// Organisms
+
+@import '../src/components/organisms/headerSection/header.scss';
+@import '../src/components/organisms/heroSection/hero.scss';
+@import '../src/components/organisms/cardSection/cards.scss';
+@import '../src/components/organisms/footerSection/footer.scss';
+
+// Templates
+
+@import '../src/components/pages/page1.scss';
+
+// Pages

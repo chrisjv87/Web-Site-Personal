@@ -1,14 +1,17 @@
-@import '../../atoms/icon/icons.scss';
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+@import '../../atoms/icon/icons.scss';
 
 .footer__icons {
     display: flex;
-    width: 200px;
+    width: 195px;
     height: 50px;
-    margin: 10px;
-    padding: 10px;
-    justify-content: center;
+    padding: 10px 0;
+    justify-content: space-between;
     align-items: center;
     gap: 10px;
-    border: 1px solid black;
 }

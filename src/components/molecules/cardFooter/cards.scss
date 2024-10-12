@@ -1,19 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .footer__links-group {
-    width: 303px;
-    height: 275px;
+    width: 343px;
+    height: 262px;
     border: 1px solid black;
 
     .footer__links-title {
-        margin: 20px;
-        font-size: 24px;
+        margin: 16px;
+        font-size: 28px;
     }
 
     .footer__links-options {
-        margin: 20px;
+        margin: 16px;
+        padding: 0 16px;
+        list-style: none;
         a {
             font-size: 20px;
-            line-height: 1.5;
+            line-height: 1.8;
             text-decoration: none;
+            color: black
         }
     }
 }
