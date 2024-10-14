@@ -322,6 +322,21 @@
 body {
   width: 100vw;
 }
+body .header, body .footer {
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+}
 body .header, body .hero, body .card, body .footer {
   display: flex;
   margin-bottom: 30px;
