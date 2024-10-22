@@ -1,13 +1,16 @@
 document.addEventListener('DOMContentLoaded', () => {
-    loadTemplates();
+    loadPage();
 });
 
-async function loadTemplates() {
+async function loadPage() {
     try {
         await templateHeader();
+        await loadMain();
         await templateFooter();
+        addMainListeners();
+
     } catch (error) {
-        console.log('Hubo un error al cargar templates', error);
+        console.log('Hubo un error al cargar la pagina', error);
     }
 }
 
@@ -18,7 +21,7 @@ async function templateHeader () {
         const response = await fetch('./src/components/templates/header.html');
         const data = await response.text();
         headerContainer.innerHTML = data;
-        console.log("Header cargado exitosamente");    
+        console.log("Header cargado exitosamente");
     } catch (error) {
         console.log('No se cargo el contenido del header', error);
     }
