@@ -1,0 +1,34 @@
+
+
+// Atoms
+
+@import '../src/components/atoms/text/texts.scss';
+@import '../src/components/atoms/button/buttons.scss';
+@import '../src/components/atoms/icon/icons.scss';
+@import '../src/components/atoms/image/images.scss';
+
+// Molecules
+
+@import '../src/components/molecules/cardSection/cards.scss';
+@import '../src/components/molecules/socialMedia/socialMedia.scss';
+@import '../src/components/molecules/cardFooter/cards.scss';
+@import '../src/components/molecules/menuOptions/menu.scss';
+
+// Organisms
+
+@import '../src/components/organisms/headerSection/header.scss';
+@import '../src/components/organisms/heroSection/hero.scss';
+@import '../src/components/organisms/cardSection/cards.scss';
+@import '../src/components/organisms/footerSection/footer.scss';
+
+// Templates
+
+@import '../src/components/templates/template.scss';
+
+// Pages
+
+@import '../src/components/pages/principal/principal.scss';
+@import '../src/components/pages/about/about.scss';
+@import '../src/components/pages/projects/project.scss';
+@import '../src/components/pages/skills/skill.scss';
+@import '../src/components/pages/certifications/certification.scss';

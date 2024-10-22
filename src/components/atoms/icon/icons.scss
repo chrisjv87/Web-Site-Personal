@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.icon {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon--linkedin {
+    background-image: url('../../../../public/assets/icons/Icon-Linkdin.svg');
+}
+
+.icon--github {
+    background-image: url('../../../../public/assets/icons/Icon-Github.svg');
+}
+
+.icon--whatsapp {
+    background-image: url('../../../../public/assets/icons/Icon-Whatsapp.svg');
+}
+
+.icon--gmail {
+    background-image: url('../../../../public/assets/icons/Icon-Gmail.svg');
+}
+
+.icon--figma {
+    background-image: url('../../../../public/assets/icons/Icon-Figma.svg');
+
+}
