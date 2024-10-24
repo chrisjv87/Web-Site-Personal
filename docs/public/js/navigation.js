@@ -1,3 +1,50 @@
+
+
+async function addListeners() {
+
+    try {
+        const principalDirection = document.querySelectorAll('.principalDir');
+        principalDirection.forEach(principal => { 
+            principal.removeEventListener('click', handleClickPrincipal);
+            principal.addEventListener('click', handleClickPrincipal);
+        });
+    
+        const aboutDirection = document.querySelectorAll('.aboutDir');
+        aboutDirection.forEach(about => {  
+            about.removeEventListener('click', handleClickAbout);
+            about.addEventListener('click', handleClickAbout);
+        });
+
+        const projectsDirection = document.querySelectorAll('.projectDir');
+        projectsDirection.forEach(project => {   
+            project.removeEventListener('click', handleClickProject);
+            project.addEventListener('click', handleClickProject);
+            
+        });
+        
+        const skillsDirection = document.querySelectorAll('.skillsDir');
+        skillsDirection.forEach(skill => {   
+            skill.removeEventListener('click', handleClickSkills);
+            skill.addEventListener('click', handleClickSkills);  
+        });
+        
+        const certificDirection = document.querySelectorAll('.certificDir');
+        certificDirection.forEach(certific => {   
+            certific.removeEventListener('click', handleClickCertific);
+            certific.addEventListener('click', handleClickCertific);
+        });
+
+        const buttonPrev = document.getElementById('prevBtn'); 
+        buttonPrev.addEventListener('click', prevCard);
+
+        const buttonNext = document.getElementById('nextBtn'); 
+        buttonNext.addEventListener('click', nextCard);
+        
+    } catch (error) {
+        console.log('No se agregaron los eventos', error);
+    }
+}
+
 function handleClickPrincipal(event) {
     event.preventDefault();
     templateMain('principalPage');
@@ -19,40 +66,12 @@ function handleClickCertific(event) {
     templateMain('certificationsPage');
 }
 
-async function addListeners() {
+function prevCard() {
+    currentProject = (currentProject === 0) ? projects.length - 1 : currentProject - 1;
+    showProject(currentProject);
+}
 
-    try {
-        const principalDirection = document.querySelectorAll('.principalDir');
-        principalDirection.forEach(principal => { 
-            principal.removeEventListener('click', handleClickPrincipal);
-            principal.addEventListener('click', handleClickPrincipal);
-        });
-    
-        const aboutDirection = document.querySelectorAll('.aboutDir');
-        aboutDirection.forEach(about => {  
-            about.removeEventListener('click', handleClickAbout);
-            about.addEventListener('click', handleClickAbout);
-        });
-        
-        const projectsDirection = document.querySelectorAll('.projectDir');
-        projectsDirection.forEach(project => {   
-            project.removeEventListener('click', handleClickProject);
-            project.addEventListener('click', handleClickProject);
-        });
-        
-        const skillsDirection = document.querySelectorAll('.skillsDir');
-        skillsDirection.forEach(skill => {   
-            skill.removeEventListener('click', handleClickSkills);
-            skill.addEventListener('click', handleClickSkills);  
-        });
-        
-        const certificDirection = document.querySelectorAll('.certificDir');
-        certificDirection.forEach(certific => {   
-            certific.removeEventListener('click', handleClickCertific);
-            certific.addEventListener('click', handleClickCertific);
-        });
-        
-    } catch (error) {
-        console.log('No se agregaron los eventos', error);
-    }
+function nextCard() {
+    currentProject = (currentProject === projects.length - 1) ? 0 : currentProject + 1;
+    showProject(currentProject);
 }
