@@ -144,7 +144,7 @@
   background-position: center;
 }
 
-.certifications__image {
+.certification__image {
   display: inline-block;
   width: 279px;
   height: 200px;
@@ -520,7 +520,7 @@ body .header, body .hero, body .footer {
   padding: 0;
 }
 
-.certifications__list {
+.certifications__container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -530,7 +530,7 @@ body .header, body .hero, body .footer {
   gap: 20px;
   border: 1px solid black;
 }
-.certifications__list .certification__card {
+.certifications__container .certification__card {
   display: flex;
   flex-direction: column;
   align-items: center;

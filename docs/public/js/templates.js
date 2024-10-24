@@ -65,10 +65,18 @@ async function templateMain (page = 'principalPage') {
         const data = await response.text();
         mainContainer.innerHTML = data;
         console.log('Main cargado exitosamente');
-        await addListeners();
+
         if (page === 'projectsPage') {
             await showProject(currentProject);
+            await addListenersProjects();
         }
+        else if (page === 'certificationsPage') {
+            await showCertification(currentCertification);
+            await addListenersCertifications();
+        } else {
+            await addListenersPages();
+        }
+
     } catch (error) {
         console.log('No se cargo el contenido del main', error);
     }

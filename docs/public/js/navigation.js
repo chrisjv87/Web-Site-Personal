@@ -1,7 +1,28 @@
 
+function prevCardProject() {
+    currentProject = (currentProject === 0) ? projects.length - 1 : currentProject - 1;
+    showProject(currentProject);
+}
 
-async function addListeners() {
+function nextCardProject() {
+    currentProject = (currentProject === projects.length - 1) ? 0 : currentProject + 1;
+    showProject(currentProject);
+}
 
+function prevCardCertific() {
+    console.log("Funciona el boton hacia atras");
+    currentCertification = (currentCertification === 0) ? certifications.length - 1 : currentCertification - 1;
+    showCertification(currentCertification);
+}
+
+function nextCardCertific() {
+    console.log("Funciona el boton hacia adelante");
+    currentCertification = (currentCertification === certifications.length - 1) ? 0 : currentCertification + 1;
+    showCertification(currentCertification);
+}
+
+async function addListenersPages() {
+    
     try {
         const principalDirection = document.querySelectorAll('.principalDir');
         principalDirection.forEach(principal => { 
@@ -33,17 +54,28 @@ async function addListeners() {
             certific.removeEventListener('click', handleClickCertific);
             certific.addEventListener('click', handleClickCertific);
         });
-
-        const buttonPrev = document.getElementById('prevBtn'); 
-        buttonPrev.addEventListener('click', prevCard);
-
-        const buttonNext = document.getElementById('nextBtn'); 
-        buttonNext.addEventListener('click', nextCard);
-        
     } catch (error) {
         console.log('No se agregaron los eventos', error);
     }
+
 }
+
+async function addListenersProjects() {
+    const buttonProjectPrev = document.getElementById('prevBtnP'); 
+    buttonProjectPrev.addEventListener('click', prevCardProject);
+    
+    const buttonProjectNext = document.getElementById('nextBtnP'); 
+    buttonProjectNext.addEventListener('click', nextCardProject);
+}
+
+async function addListenersCertifications() {
+    const buttonCertificPrev = document.getElementById('prevBtnC'); 
+    buttonCertificPrev.addEventListener('click', prevCardCertific);
+    
+    const buttonCertificNext = document.getElementById('nextBtnC'); 
+    buttonCertificNext.addEventListener('click', nextCardCertific);
+}
+
 
 function handleClickPrincipal(event) {
     event.preventDefault();
@@ -64,14 +96,4 @@ function handleClickSkills(event) {
 function handleClickCertific(event) {
     event.preventDefault();
     templateMain('certificationsPage');
-}
-
-function prevCard() {
-    currentProject = (currentProject === 0) ? projects.length - 1 : currentProject - 1;
-    showProject(currentProject);
-}
-
-function nextCard() {
-    currentProject = (currentProject === projects.length - 1) ? 0 : currentProject + 1;
-    showProject(currentProject);
 }
