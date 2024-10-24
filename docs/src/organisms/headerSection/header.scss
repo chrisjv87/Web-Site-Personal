@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header__nav {
+    display: flex;
+    width: 375px;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    background-color: rgb(199, 199, 199);
+    
+    .header__menu {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        .header__item {
+            list-style-type: none;
+            .header__contact {
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}

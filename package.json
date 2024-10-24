@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "sass --watch sass/main.scss public/css/main.css",
-    "testt": "sass --watch src/components/pages/skills/skill.scss public/css/main.css",
-    "build-prod": "sass sass/main.scss public/css/main.css --style=compressed"
+    "compile": "sass docs/sass/main.scss docs/public/css/main.css",
+    "watch": "sass --watch docs/sass/main.scss docs/public/css/main.css"
   },
   "keywords": [],
   "author": "",
