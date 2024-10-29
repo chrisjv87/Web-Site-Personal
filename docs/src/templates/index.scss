@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@mixin container {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    align-items: center;
+}
+
+body {
+    .header {
+        @include container;
+        margin-bottom: 28px; 
+        @media(min-width: 768px) {
+            margin-bottom: 34px;
+        }
+        @media(min-width: 1440px) {
+            margin-bottom: 40px;
+        }
+    }
+
+    .main {
+        @include container;
+        margin-bottom: 28px;
+
+        @media(min-width: 768px) {
+            margin-bottom: 34px;
+        }
+        @media(min-width: 1440px) {
+            margin-bottom: 40px;
+        }
+    }
+
+    .footer {
+        @include container;
+
+    }
+}

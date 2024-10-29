@@ -3,15 +3,15 @@
     margin: 0;
     padding: 0;
 }
-   
-.hero__profile, .hero__cards {
-    width: 343px;
-    
+
+.header__nav {
+    width: 375px;
+
     @media(min-width: 768px) {
-        width: 712px;
+        width: 768px;
     }
     
     @media(min-width: 1440px) {
-        width: 1368px;
+        width: 1440px;
     }
 }

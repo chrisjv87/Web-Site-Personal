@@ -22,7 +22,9 @@
 
 // Templates
 
-@import '../src/templates/template.scss';
+@import '../src/templates/index.scss';
+@import '../src/templates/header/header.scss';
+@import '../src/templates/footer/footer.scss';
 
 // Pages
 

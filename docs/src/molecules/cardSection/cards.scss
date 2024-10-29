@@ -15,13 +15,23 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
+    
+    .card__button {
+        display: inline-block;
+        position: absolute;
+        font-size: 16px;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 
-.card__button {
-    display: inline-block;
-    position: absolute;
-    font-size: 16px;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+    @media(min-width: 768px) {
+        width: 672px;
+        height: 275px;
+    }
+
+    @media(min-width: 1440px) {
+        width: 648px;
+        height: 374px;
+    }
 }

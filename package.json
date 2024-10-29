@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile": "sass docs/sass/main.scss docs/public/css/main.css",
-    "watch": "sass --watch docs/sass/main.scss docs/public/css/main.css"
+    "test": "sass --watch docs/src/molecules/cardSection/cards.scss docs/public/css/main.css",
+    "compile": "sass docs/sass/main.scss docs/public/css/main.css"
   },
   "keywords": [],
   "author": "",

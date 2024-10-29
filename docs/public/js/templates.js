@@ -14,7 +14,7 @@ async function loadPage() {
 async function templateHeader () {
     try {
         const headerContainer = document.getElementById('headerIndex');
-        const response = await fetch('src/templates/header.html');
+        const response = await fetch('src/templates/header/header.html');
         const data = await response.text();
         headerContainer.innerHTML = data;
 
@@ -28,7 +28,7 @@ async function templateHeader () {
 async function templateFooter () {
     try {
         const footerContainer = document.getElementById('footerIndex');
-        const response = await fetch('src/templates/footer.html');
+        const response = await fetch('src/templates/footer/footer.html');
         const data = await response.text();
         footerContainer.innerHTML = data;
 
@@ -65,7 +65,17 @@ async function templateMain (page = 'principalPage') {
         const data = await response.text();
         mainContainer.innerHTML = data;
         console.log('Main cargado exitosamente');
-        await addListeners();
+
+        if (page === 'projectsPage') {
+            await showProject(currentProject);
+            await addListenersProjects();
+        }
+        else if (page === 'certificationsPage') {
+            await showCertification(currentCertification);
+            await addListenersCertifications();
+        } else {
+            await addListenersPages();
+        }
 
     } catch (error) {
         console.log('No se cargo el contenido del main', error);

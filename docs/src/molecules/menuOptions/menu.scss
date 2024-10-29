@@ -42,4 +42,20 @@
     }
 }
 
+.header__desktop {
+    width: 822px;
+    height: 80px;
 
+    .header__menu {
+        display: flex;
+        height: 80px;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+
+        li > a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}

@@ -8,7 +8,7 @@
 .header__nav {
     display: flex;
     width: 375px;
-    height: 70px;
+    height: 60px;
     align-items: center;
     justify-content: space-between;
     padding: 0 16px;
@@ -18,6 +18,7 @@
         display: flex;
         align-items: center;
         gap: 16px;
+        
         .header__item {
             list-style-type: none;
             .header__contact {
@@ -25,5 +26,31 @@
                 color: black;
             }
         }
+    }
+
+    .header__desktop {
+        display: none;
+    }
+
+    @media(min-width: 768px) {
+        width: 712px;
+        height: 80px;
+    }
+
+    @media(min-width: 1440px) {
+        width: 1384px;
+        height: 100px;
+        
+        .header__desktop{
+            display: block;
+        }
+
+        .header__item {
+            display: none;
+        }
+        .header__options-button {
+            display: none;
+        }
+
     }
 }

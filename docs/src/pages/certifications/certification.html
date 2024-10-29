@@ -1,21 +1,23 @@
-<section class="certifications__list">
+<section class="certifications__container">
     <h1 class="certifications__title">Mis certificados</h1>
     <p class="certifications__description">
         Estas son las certificaciones que he obtenido, avalando mis conocimientos en diferentes tecnologías y áreas de desarrollo.
     </p>
-    <div class="certifications__container">
-        <div class="certification__card">
-            <h2 class="certifications__name">Título del Certificado</h2>
-            <img class="certifications__image" aria-label="proyecto">
-            <p class="certifications__issuer">Emitido por: [Plataforma/Organización]</p>
-            <p class="certifications__date">Fecha de emisión: [DD-MM-AAAA]</p>
-            <a class="project__enlace" href="#">Ver certificacion</a>
-        </div>
+    
+    <div class="certification__card">
+        <h2 class="certification__name" id="certificTitle"></h2>
+        <img class="certification__image img" id="certificImage" aria-label="certification">
+        <p class="certification__issued" id="certificIssued"></p>
+        <p class="certification__date" id="certificDate"></p>
+        <a class="certification__link" id="certificLink" href="#">Ver certificacion</a>
     </div>
-    <h2>Institutos</h2>
-    <div class="Institutions__container">
-        <img class="institut__image" aria-label="Platzi">
+    <div class="certifications__buttons">
+        <button class="certification__prevBtn" id="prevBtnC">Anterior</button>
+        <button class="certification__nextBtn" id="nextBtnC">Siguiente</button>
     </div>
-    <!-- Añadir más certificaciones según sea necesario -->
+    <h2 class="certifications__subtitle">Institutos</h2>
+    <div class="certifications__institutions">
+        <img class="institut__image img" aria-label="Platzi">
+    </div>
 </section>
     

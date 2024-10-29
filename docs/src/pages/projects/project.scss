@@ -24,4 +24,12 @@
         border: 1px solid black;
         text-align: justify;
    }
+
+   @media(min-width: 768px) {
+    width: 672px;
+    }
+
+    @media(min-width: 1440px) {
+        width: 1368px;
+    }
 }

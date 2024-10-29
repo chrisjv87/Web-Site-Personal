@@ -26,4 +26,18 @@
     .card__certifications {
         background-image: url('../assets/img/certifications.jpg');
     }
+
+    @media (min-width: 768px) {
+        width: 712px;
+        height: 1200px;
+    }
+
+    @media (min-width: 1440px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        place-items: center;
+        width: 1368px;
+        height: 820px;
+    }
 }

@@ -4,14 +4,27 @@
     padding: 0;
 }
 
+.img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .header__logo {
     display: inline-block;
     width: 80px;
     height: 40px;
     background-image: url('../assets/img/Logo-Chrisjv87.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+
+    @media(min-width: 768px) {
+        width: 110px;
+        height: 55px;
+    }
+
+    @media(min-width: 1440px) {
+        width: 140px;
+        height: 70px;
+    }
 }
 
 .hero__image {
@@ -20,20 +33,35 @@
     height: 542px;
     border-radius: 20px;
     background-image: url('../assets/img/profile.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+
+    @media(min-width: 768px) {
+        width: 672px;
+        height: 450px;
+    }
+
+    @media(min-width: 1440px) {
+        width: 878px;
+        height: 824px;
+    }
 }
+
 
 .about__image {
     display: inline-block;
     width: 311px;
-    height: 280px;
+    height: 230px;
     border-radius: 20px;
     background-image: url('../assets/img/profile.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+
+    @media(min-width: 768px) {
+        width: 672px;
+        height: 275px;
+    };
+    
+    @media(min-width: 1440px) {
+        width: 648px;
+        height: 374px;
+    };
 }
 
 .project__image {
@@ -42,9 +70,6 @@
     height: 250px;
     border-radius: 20px;
     background-image: url('../assets/img/projects.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .skills__icon {
@@ -53,20 +78,14 @@
     height: 40px;
     border-radius: 20px;
     background-image: url('../assets/img/projects.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
-.certifications__image {
+.certification__image {
     display: inline-block;
     width: 279px;
     height: 200px;
     border-radius: 20px;
     background-image: url('../assets/img/projects.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .institut__image {
@@ -75,7 +94,4 @@
     height: 80px;
     border-radius: 20px;
     background-image: url('../assets/img/projects.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
