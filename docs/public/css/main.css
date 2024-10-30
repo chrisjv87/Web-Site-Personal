@@ -199,21 +199,21 @@
 
 .about__image {
   display: inline-block;
-  width: 311px;
-  height: 230px;
+  width: 300px;
+  height: 250px;
   border-radius: 20px;
   background-image: url("../assets/img/profile.jpeg");
 }
 @media (min-width: 768px) {
   .about__image {
-    width: 672px;
-    height: 275px;
+    width: 450px;
+    height: 400px;
   }
 }
 @media (min-width: 1440px) {
   .about__image {
-    width: 648px;
-    height: 374px;
+    width: 550px;
+    height: 500px;
   }
 }
 
@@ -695,7 +695,7 @@ body .footer {
   padding: 0;
 }
 
-.about {
+.about__container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -705,17 +705,35 @@ body .footer {
   gap: 20px;
   border: 1px solid black;
 }
-.about .about__text {
+.about__container .about__content {
+  display: flex;
+  flex-direction: column;
+  width: 311px;
+  align-items: center;
+}
+.about__container .about__content .about__text {
   text-align: justify;
 }
 @media (min-width: 768px) {
-  .about {
+  .about__container {
+    width: 712px;
+  }
+  .about__container .about__content {
     width: 672px;
   }
 }
 @media (min-width: 1440px) {
-  .about {
+  .about__container {
     width: 1368px;
+  }
+  .about__container .about__content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    width: 1312px;
+  }
+  .about__container .about__content .about__description {
+    width: 600px;
   }
 }
 

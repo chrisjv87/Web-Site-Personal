@@ -48,19 +48,19 @@
 
 .about__image {
     display: inline-block;
-    width: 311px;
-    height: 230px;
+    width: 300px;
+    height: 250px;
     border-radius: 20px;
     background-image: url('../assets/img/profile.jpeg');
 
     @media(min-width: 768px) {
-        width: 672px;
-        height: 275px;
+        width: 450px;
+        height: 400px;
     };
     
     @media(min-width: 1440px) {
-        width: 648px;
-        height: 374px;
+        width: 550px;
+        height: 500px;
     };
 }
 
