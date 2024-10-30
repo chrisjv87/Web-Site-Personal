@@ -26,6 +26,70 @@
     }
 }
 
+
+.project__prevBtn {
+    display: inline-block;
+    padding: 0;
+    border: 0;
+    background-color: white;
+    
+    .prevBtn {
+        background-image: url('../assets/icons/navigate_before.svg');
+    }
+}
+
+.project__nextBtn {
+    display: inline-block;
+    padding: 0;
+    border: 0;
+    background-color: white;
+
+    .nextBtn {
+        background-image: url('../assets/icons/navigate_next.svg');
+    }
+}
+
+.btn {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+
+    @media (min-width: 768px) {
+        width: 45px;
+        height: 45px;
+    }
+
+    @media (min-width: 1440px) {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+.header__options-button {
+    display: inline-block;
+    padding: 0;
+    border: 0;
+    .icon {
+        display: block;
+        width: 38px;
+        height: 38px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url('../assets/icons/Icon-Menu-Burger.svg');
+        background-color: white;
+
+        @media(min-width: 768px) {
+            width: 60px;
+            height: 60px;
+        }
+    }
+}
+
 @mixin button-common {
     display: inline-block;
     width: 200px;

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 document.addEventListener('DOMContentLoaded', templateMain('about'));
+=======
+document.addEventListener('DOMContentLoaded', templateMain('projects'));
+>>>>>>> features/test
 
 async function templateMain (page) {
     try {
