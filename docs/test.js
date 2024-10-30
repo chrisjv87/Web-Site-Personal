@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', templateMain('image'));
+document.addEventListener('DOMContentLoaded', templateMain('footer'));
 
 async function templateMain (page) {
     try {
