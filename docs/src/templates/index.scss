@@ -7,11 +7,11 @@
 @mixin container {
     display: flex;
     flex-direction: column;
-    overflow-x: hidden;
     align-items: center;
 }
 
 body {
+    overflow-x: hidden;
     .header {
         @include container;
         margin-bottom: 28px; 
