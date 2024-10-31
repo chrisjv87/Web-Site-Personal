@@ -11,19 +11,11 @@
 
     .footer__links-title {
         margin: 16px;
-        font-size: 28px;
     }
 
     .footer__links-options {
         margin: 16px;
         padding: 0 16px;
-        list-style: none;
-        a {
-            font-size: 20px;
-            line-height: 1.8;
-            text-decoration: none;
-            color: black
-        }
     }
 
     @media(min-width: 768px) {
