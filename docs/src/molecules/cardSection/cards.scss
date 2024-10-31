@@ -1,0 +1,37 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.cards {
+    display: inline-block;
+    position: relative;
+    width: 343px;
+    height: 230px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    .card__button {
+        display: inline-block;
+        position: absolute;
+        font-size: 16px;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    @media(min-width: 768px) {
+        width: 672px;
+        height: 275px;
+    }
+
+    @media(min-width: 1440px) {
+        width: 648px;
+        height: 374px;
+    }
+}

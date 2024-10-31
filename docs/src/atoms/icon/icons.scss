@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.icon {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    @media(min-width: 768px) {
+        width: 36px;
+        height: 36px;
+    }
+
+    @media(min-width: 1440px) {
+        width: 44px;
+        height: 44px;
+    }
+}
+
+.icon--linkedin {
+    background-image: url('../assets/icons/Icon-Linkdin.svg');
+}
+
+.icon--github {
+    background-image: url('../assets/icons/Icon-Github.svg');
+}
+
+.icon--whatsapp {
+    background-image: url('../assets/icons/Icon-Whatsapp.svg');
+}
+
+.icon--gmail {
+    background-image: url('../assets/icons/Icon-Gmail.svg');
+}
+
+.icon--figma {
+    background-image: url('../assets/icons/Icon-Figma.svg');
+
+}

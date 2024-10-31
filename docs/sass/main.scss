@@ -1,0 +1,35 @@
+
+
+// Atoms
+@import '../src/atoms/text/texts';
+@import '../src/atoms/button/buttons.scss';
+@import '../src/atoms/icon/icons.scss';
+@import '../src/atoms/image/images.scss';
+
+// Molecules
+
+@import '../src/molecules/cardSection/cards.scss';
+@import '../src/molecules/socialMedia/socialMedia.scss';
+@import '../src/molecules/cardFooter/cards.scss';
+@import '../src/molecules/menuOptions/menu.scss';
+
+// Organisms
+
+@import '../src/organisms/headerSection/header.scss';
+@import '../src/organisms/heroSection/hero.scss';
+@import '../src/organisms/cardSection/cards.scss';
+@import '../src/organisms/footerSection/footer.scss';
+
+// Templates
+
+@import '../src/templates/index.scss';
+@import '../src/templates/header/header.scss';
+@import '../src/templates/footer/footer.scss';
+
+// Pages
+
+@import '../src/pages/principal/principal.scss';
+@import '../src/pages/about/about.scss';
+@import '../src/pages/projects/project.scss';
+@import '../src/pages/skills/skill.scss';
+@import '../src/pages/certifications/certification.scss';

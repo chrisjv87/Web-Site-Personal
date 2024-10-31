@@ -1,0 +1,140 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header__options-button {
+    display: inline-block;
+    padding: 0;
+    border: 0;
+    .icon {
+        display: block;
+        width: 38px;
+        height: 38px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url('../assets/icons/Icon-Menu-Burger.svg');
+        background-color: white;
+
+        @media(min-width: 768px) {
+            width: 60px;
+            height: 60px;
+        }
+    }
+}
+
+
+.button__prevBtn {
+    display: inline-block;
+    padding: 0;
+    border: 0;
+    background-color: white;
+    
+    .prevBtn {
+        background-image: url('../assets/icons/navigate_before.svg');
+    }
+}
+
+.button__nextBtn {
+    display: inline-block;
+    padding: 0;
+    border: 0;
+    background-color: white;
+
+    .nextBtn {
+        background-image: url('../assets/icons/navigate_next.svg');
+    }
+}
+
+.btn {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+
+    @media (min-width: 768px) {
+        width: 45px;
+        height: 45px;
+    }
+
+    @media (min-width: 1440px) {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+.header__options-button {
+    display: inline-block;
+    padding: 0;
+    border: 0;
+    .icon {
+        display: block;
+        width: 38px;
+        height: 38px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url('../assets/icons/Icon-Menu-Burger.svg');
+        background-color: white;
+
+        @media(min-width: 768px) {
+            width: 60px;
+            height: 60px;
+        }
+    }
+}
+
+@mixin button-common {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    padding: 10px 20px;
+    color: black;
+    border: 1px solid black;
+    background-color: rgb(199, 199, 199);
+    border-radius: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-decoration: none;
+    text-align: center;
+}
+
+.hero__button {
+    @include button-common;
+    line-height: 20px;
+
+    @media(min-width: 768px) {
+        width: 250px;
+        height: 40px;
+    }
+
+    @media(min-width: 1440px) {
+        width: 300px;
+        height: 50px;
+        line-height: 25px;
+    }
+}
+
+.card__button {
+    @include button-common;
+    line-height: 20px;
+
+    @media(min-width: 768px) {
+        width: 240px;
+        height: 50px;
+        line-height: 25px;
+    }
+
+    @media(min-width: 1440px) {
+        width: 354px;
+        height: 60px;
+        line-height: 30px;
+    }
+
+}
