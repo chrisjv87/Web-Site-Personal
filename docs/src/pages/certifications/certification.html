@@ -1,22 +1,28 @@
-<section class="certifications__container">
-    <h1 class="certifications__title">Mis certificados</h1>
-    <p class="certifications__description">
+<section class="certification__container">
+    <h1 class="certification__title">Mis certificados</h1>
+    <p class="certification__description">
         Estas son las certificaciones que he obtenido, avalando mis conocimientos en diferentes tecnologías y áreas de desarrollo.
     </p>
     
     <div class="certification__card">
-        <h2 class="certification__name" id="certificTitle"></h2>
-        <img class="certification__image img" id="certificImage" aria-label="certification">
-        <p class="certification__issued" id="certificIssued"></p>
-        <p class="certification__date" id="certificDate"></p>
-        <a class="certification__link" id="certificLink" href="#">Ver certificacion</a>
+        <div class="certification__buttons">
+            <button class="button__prevBtn" id="prevBtnC">
+                <span class="prevBtn btn" aria-label="Prev"></span>
+            </button>
+            <img class="certification__image img" id="certificImage" aria-label="certification">
+            <button class="button__nextBtn" id="nextBtnC">
+                <span class="nextBtn btn" aria-label="Next"></span>
+            </button>
+        </div>
+        <div class="certification__content">
+            <h2 class="certification__name" id="certificTitle"></h2>
+            <p class="certification__issued" id="certificIssued"></p>
+            <p class="certification__date" id="certificDate"></p>
+            <a class="certification__link" id="certificLink" href="#">Ver certificacion</a>
+        </div>
     </div>
-    <div class="certifications__buttons">
-        <button class="certification__prevBtn" id="prevBtnC">Anterior</button>
-        <button class="certification__nextBtn" id="nextBtnC">Siguiente</button>
-    </div>
-    <h2 class="certifications__subtitle">Institutos</h2>
-    <div class="certifications__institutions">
+    <h2 class="certification__subtitle">Institutos</h2>
+    <div class="certification__institutions">
         <img class="institut__image img" aria-label="Platzi">
     </div>
 </section>
