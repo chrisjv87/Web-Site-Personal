@@ -40,39 +40,23 @@
   }
 }
 
-<<<<<<< HEAD
-.project__prevBtn {
-=======
 .button__prevBtn {
->>>>>>> features/test
   display: inline-block;
   padding: 0;
   border: 0;
   background-color: white;
 }
-<<<<<<< HEAD
-.project__prevBtn .prevBtn {
-  background-image: url("../assets/icons/navigate_before.svg");
-}
-
-.project__nextBtn {
-=======
 .button__prevBtn .prevBtn {
   background-image: url("../assets/icons/navigate_before.svg");
 }
 
 .button__nextBtn {
->>>>>>> features/test
   display: inline-block;
   padding: 0;
   border: 0;
   background-color: white;
 }
-<<<<<<< HEAD
-.project__nextBtn .nextBtn {
-=======
 .button__nextBtn .nextBtn {
->>>>>>> features/test
   background-image: url("../assets/icons/navigate_next.svg");
 }
 
