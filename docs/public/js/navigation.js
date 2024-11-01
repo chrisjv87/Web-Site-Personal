@@ -24,6 +24,9 @@ function nextCardCertific() {
 async function addListenersPages() {
     
     try {
+        const buttonMenu = document.getElementById('headerButton');
+        buttonMenu.addEventListener('click', menuDeploy);
+
         const principalDirection = document.querySelectorAll('.principalDir');
         principalDirection.forEach(principal => { 
             principal.removeEventListener('click', handleClickPrincipal);

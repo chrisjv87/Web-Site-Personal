@@ -1,4 +1,6 @@
-document.addEventListener('DOMContentLoaded', templateMain('skills'));
+document.addEventListener('DOMContentLoaded', templateMain('headerSection'));
+
+
 
 async function templateMain (page) {
     try {
