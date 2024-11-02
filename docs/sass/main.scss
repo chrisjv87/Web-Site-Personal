@@ -15,20 +15,20 @@
 
 // Organisms
 
-@import '../src/organisms/headerSection/header.scss';
+@import '../src/organisms/headerSection/headerSection.scss';
 @import '../src/organisms/heroSection/hero.scss';
 @import '../src/organisms/cardSection/cards.scss';
-@import '../src/organisms/footerSection/footer.scss';
+@import '../src/organisms/footerSection/footerSection.scss';
 
 // Templates
 
 @import '../src/templates/index.scss';
 @import '../src/templates/header/header.scss';
 @import '../src/templates/footer/footer.scss';
+@import '../src/templates/principal/principal.scss';
 
 // Pages
 
-@import '../src/pages/principal/principal.scss';
 @import '../src/pages/about/about.scss';
 @import '../src/pages/projects/project.scss';
 @import '../src/pages/skills/skill.scss';

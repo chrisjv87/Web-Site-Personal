@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', templateMain('headerSection'));
+document.addEventListener('DOMContentLoaded', templateMain('footer'));
 
 
 
@@ -31,14 +31,14 @@ async function templateMain (page) {
                 pagePath = 'src/molecules/socialMedia/socialMedia.html';
                 break;
             //organisms
-            case 'cardSectionO':
+            case 'cardSection':
                 pagePath = 'src/organisms/cardSection/cards.html';
                 break;
             case 'footerSection':
-                pagePath = 'src/organisms/footerSection/footer.html';
+                pagePath = 'src/organisms/footerSection/footerSection.html';
                 break;
             case 'headerSection':
-                pagePath = 'src/organisms/headerSection/header.html';
+                pagePath = 'src/organisms/headerSection/headerSection.html';
                 break;
             case 'heroSection':
                 pagePath = 'src/organisms/heroSection/hero.html';
@@ -50,15 +50,15 @@ async function templateMain (page) {
             case 'footer':
                 pagePath = 'src/templates/footer/footer.html';
                 break;
+            case 'principal':
+                pagePath = 'src/templates/principal/principal.html';
+                break;
             //pages
             case 'about':
                 pagePath = 'src/pages/about/about.html';
                 break;
             case 'certifications':
                 pagePath = 'src/pages/certifications/certification.html';
-                break;
-            case 'principal':
-                pagePath = 'src/pages/principal/principal.html';
                 break;
             case 'projects':
                 pagePath = 'src/pages/projects/project.html';

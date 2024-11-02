@@ -6,7 +6,7 @@
 
 .footer__links-group {
     width: 343px;
-    height: 262px;
+    height: 210px;
     border: 1px solid black;
 
     .footer__links-title {
@@ -16,15 +16,16 @@
     .footer__links-options {
         margin: 16px;
         padding: 0 16px;
+        list-style: disc;
     }
 
     @media(min-width: 768px) {
-        width: 326px;
-        height: 312px;
+        width: 346px;
+        height: 240px;
     }
     
     @media(min-width: 1440px) {
-        width: 424px;
-        height: 402px;
+        width: 440px;
+        height: 255px;
     }
 }

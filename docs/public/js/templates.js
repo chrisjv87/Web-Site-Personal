@@ -44,7 +44,7 @@ async function templateMain (page = 'principalPage') {
 
         switch(page) {
             case 'principalPage':
-                pagePath = 'src/pages/principal/principal.html';
+                pagePath = 'src/templates/principal/principal.html';
                 break;
             case 'aboutPage':
                 pagePath = 'src/pages/about/about.html';
