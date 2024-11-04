@@ -1,8 +1,8 @@
 .link {
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+  font-weight: 300;
   text-align: center;
   text-decoration: none;
   color: black;
@@ -54,7 +54,7 @@
 
 @media (min-width: 768px) {
   .link {
-    font-size: 18px;
+    font-size: 15px;
   }
   .title {
     font-size: 36px;
@@ -77,7 +77,7 @@
 }
 @media (min-width: 1440px) {
   .link {
-    font-size: 20px;
+    font-size: 16px;
   }
   .title {
     font-size: 48px;
@@ -312,18 +312,21 @@
   display: inline-block;
   width: 80px;
   height: 40px;
+  margin: 16px;
   background-image: url("../assets/img/Logo-Chrisjv87.svg");
 }
 @media (min-width: 768px) {
   .header__logo {
     width: 110px;
     height: 55px;
+    margin: 18px;
   }
 }
 @media (min-width: 1440px) {
   .header__logo {
     width: 140px;
     height: 70px;
+    margin: 20px;
   }
 }
 
@@ -470,7 +473,7 @@
   display: flex;
   width: 195px;
   height: 50px;
-  padding: 10px 0;
+  margin: 16px;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
@@ -479,12 +482,14 @@
   .footer__icons {
     width: 300px;
     height: 68px;
+    margin: 18px;
   }
 }
 @media (min-width: 1440px) {
   .footer__icons {
     width: 364px;
     height: 84px;
+    margin: 20px;
   }
 }
 
@@ -496,27 +501,39 @@
 
 .footer__links-group {
   width: 343px;
-  height: 210px;
   border: 1px solid black;
 }
 .footer__links-group .footer__links-title {
+  text-align: start;
   margin: 16px;
 }
 .footer__links-group .footer__links-options {
   margin: 16px;
   padding: 0 16px;
-  list-style: disc;
+  list-style: none;
 }
 @media (min-width: 768px) {
   .footer__links-group {
     width: 346px;
-    height: 240px;
+  }
+  .footer__links-group .footer__links-title {
+    margin: 18px;
+  }
+  .footer__links-group .footer__links-options {
+    margin: 18px;
+    padding: 0 18px;
   }
 }
 @media (min-width: 1440px) {
   .footer__links-group {
     width: 440px;
-    height: 255px;
+  }
+  .footer__links-group .footer__links-title {
+    margin: 20px;
+  }
+  .footer__links-group .footer__links-options {
+    margin: 20px;
+    padding: 0 20px;
   }
 }
 
@@ -690,46 +707,92 @@
   display: flex;
   flex-direction: column;
   width: 343px;
-  background-color: black;
 }
-.footer__container .footer__social-media {
+.footer__container .divide {
+  flex-grow: 1;
+  margin: 0 10px;
+  border-top: 1px solid black;
+}
+.footer__container .footer__logo {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-bottom: 16px;
-  padding: 0 3px;
-  background-color: white;
+  justify-content: center;
 }
 .footer__container .footer__cards {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
-.footer__container .footer__cards .footer__links-group {
-  background-color: white;
+.footer__container .footer__cards .footer__resources {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__container .footer__cards .footer__resources .footer__content {
+  display: flex;
+}
+.footer__container .footer__cards .footer__resources .footer__content .footer__training, .footer__container .footer__cards .footer__resources .footer__content .footer__consult {
+  width: 171.5px;
+}
+.footer__container .footer__cards .footer__website {
+  width: 171.5px;
+}
+.footer__container .footer__social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 3px;
+}
+.footer__container .footer__rights {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
 }
 @media (min-width: 768px) {
   .footer__container {
     width: 712px;
   }
-  .footer__container .footer__social-media {
-    margin-bottom: 20px;
-  }
   .footer__container .footer__cards {
     display: flex;
-    flex-direction: row;
-    gap: 20px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 0;
+  }
+  .footer__container .footer__cards .footer__resources {
+    width: 434px;
+  }
+  .footer__container .footer__cards .footer__resources .footer__content {
+    width: 434px;
+  }
+  .footer__container .footer__cards .footer__resources .footer__content .footer__consult, .footer__container .footer__cards .footer__resources .footer__content .footer__training {
+    width: 217px;
+  }
+  .footer__container .footer__cards .footer__website {
+    width: 238px;
   }
 }
 @media (min-width: 1440px) {
   .footer__container {
     width: 1368px;
   }
-  .footer__container .footer__social-media {
-    margin-bottom: 24px;
-  }
   .footer__container .footer__cards {
-    gap: 24px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 0;
+  }
+  .footer__container .footer__cards .footer__resources {
+    width: 856px;
+  }
+  .footer__container .footer__cards .footer__resources .footer__content {
+    width: 856px;
+  }
+  .footer__container .footer__cards .footer__resources .footer__content .footer__consult, .footer__container .footer__cards .footer__resources .footer__content .footer__training {
+    width: 428px;
+  }
+  .footer__container .footer__cards .footer__website {
+    width: 456px;
   }
 }
 
@@ -842,20 +905,6 @@ body .footer {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-.footer__container {
-  width: 343px;
-}
-@media (min-width: 768px) {
-  .footer__container {
-    width: 712px;
-  }
-}
-@media (min-width: 1440px) {
-  .footer__container {
-    width: 1368px;
-  }
 }
 
 * {

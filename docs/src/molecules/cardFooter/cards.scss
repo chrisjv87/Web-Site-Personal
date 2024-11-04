@@ -6,26 +6,40 @@
 
 .footer__links-group {
     width: 343px;
-    height: 210px;
     border: 1px solid black;
 
     .footer__links-title {
+        text-align: start;
         margin: 16px;
     }
 
     .footer__links-options {
         margin: 16px;
         padding: 0 16px;
-        list-style: disc;
+        list-style: none;
     }
 
     @media(min-width: 768px) {
         width: 346px;
-        height: 240px;
+        .footer__links-title {
+            margin: 18px;
+        }
+    
+        .footer__links-options {
+            margin: 18px;
+            padding: 0 18px;
+        }
     }
     
     @media(min-width: 1440px) {
         width: 440px;
-        height: 255px;
+        .footer__links-title {
+            margin: 20px;
+        }
+    
+        .footer__links-options {
+            margin: 20px;
+            padding: 0 20px;
+        }
     }
 }

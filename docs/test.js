@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', templateMain('footer'));
+document.addEventListener('DOMContentLoaded', templateMain('footerSection'));
 
 
 

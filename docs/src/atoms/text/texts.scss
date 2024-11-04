@@ -2,9 +2,9 @@ $font-primary: 'Roboto', sans-serif;
 
 .link {
     font-family: $font-primary;
-    font-size: 16px;
-    line-height: 1.6;
-    font-weight: 400;
+    font-size: 14px;
+    line-height: 2;
+    font-weight: 300;
     text-align: center;
     text-decoration: none;
     color: black;
@@ -57,7 +57,7 @@ $font-primary: 'Roboto', sans-serif;
 
 @media(min-width: 768px) {
     .link {
-        font-size: 18px;
+        font-size: 15px;
     }
     
     .title {
@@ -85,7 +85,7 @@ $font-primary: 'Roboto', sans-serif;
 
 @media(min-width: 1440px) {
     .link {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .title {
