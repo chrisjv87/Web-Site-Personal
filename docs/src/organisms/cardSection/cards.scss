@@ -4,32 +4,42 @@
     padding: 0;
 }
 
-.cards__container {
+.card__container {
     display: flex;
     width: 343px;
     height: 968px;
     flex-direction: column;
     justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 20px;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
 
-    .card__about {
-        background-image: url('../assets/img/about-me.jpeg');
+    .card__content {
+        .card__about {
+            background-image: url('../assets/img/about-me.jpeg');
+        }
+    
+        .card__projects {
+            background-image: url('../assets/img/projects.jpg');
+        }
+    
+        .card__skills {
+            background-image: url('../assets/img/skills.jpg');
+        }
+    
+        .card__certifications {
+            background-image: url('../assets/img/certifications.jpg');
+        }
     }
 
-    .card__projects {
-        background-image: url('../assets/img/projects.jpg');
-    }
-
-    .card__skills {
-        background-image: url('../assets/img/skills.jpg');
-    }
-
-    .card__certifications {
-        background-image: url('../assets/img/certifications.jpg');
-    }
 
     @media (min-width: 768px) {
         width: 712px;
-        height: 1200px;
+        height: 1646px;
+        padding: 30px;
+        gap: 30px;
     }
 
     @media (min-width: 1440px) {
@@ -39,5 +49,7 @@
         place-items: center;
         width: 1368px;
         height: 820px;
+        padding: 40px;
+        gap: 40px;
     }
 }

@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', templateMain('heroSection'));
+document.addEventListener('DOMContentLoaded', templateMain('cardSection'));
 
 
 
@@ -21,7 +21,7 @@ async function templateMain (page) {
             case 'cardFooter':
                 pagePath = 'src/molecules/cardFooter/cards.html';
                 break;
-            case 'cardSection':
+            case 'card':
                 pagePath = 'src/molecules/cardSection/cards.html';
                 break;
             case 'menuOptions':

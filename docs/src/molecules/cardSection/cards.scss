@@ -5,32 +5,57 @@
     padding: 0;
 }
 
-.cards {
-    display: inline-block;
-    position: relative;
-    width: 343px;
-    height: 230px;
-    border-radius: 20px;
+.card__content {
+    display: flex;
+    width: 303px;
+    height: 217px;
     border: 1px solid black;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
     
-    .card__button {
+    .card__image {
         display: inline-block;
-        position: absolute;
-        bottom: 20px;
-        left: 50%;
-        transform: translateX(-50%);
+        position: relative;
+        width: 271px;
+        height: 185px;
+        border-radius: 20px;
+        border: 1px solid black;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+        .card__button {
+            display: inline-block;
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    
     }
 
     @media(min-width: 768px) {
-        width: 672px;
-        height: 275px;
-    }
-
-    @media(min-width: 1440px) {
-        width: 648px;
+        width: 652px;
         height: 374px;
+        padding: 20px;
+
+        .card__image {
+            width: 604px;
+            height: 334px;
+        }
+    }
+        
+    @media(min-width: 1440px) {
+        width: 624px;
+        height: 350px;
+        padding: 24px;
+
+        .card__image {
+            width: 576px;
+            height: 302px;
+        }
     }
 }
+
+
