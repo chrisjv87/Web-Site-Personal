@@ -19,6 +19,7 @@ async function templateHeader () {
         headerContainer.innerHTML = data;
 
         console.log("Header cargado exitosamente");
+        adjustMenuDisplay();
         
     } catch (error) {
         console.log('No se cargo el contenido del header', error);

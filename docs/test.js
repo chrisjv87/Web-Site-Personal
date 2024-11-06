@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', templateMain('cardSection'));
+document.addEventListener('DOMContentLoaded', templateMain('menuOptions'));
 
 
 

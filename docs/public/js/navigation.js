@@ -87,16 +87,20 @@ function handleClickPrincipal(event) {
 function handleClickAbout(event) {
     event.preventDefault();
     templateMain('aboutPage');
+    menuDeploy();
 }
 function handleClickProject(event) {
     event.preventDefault();
     templateMain('projectsPage');
+    menuDeploy();
 }
 function handleClickSkills(event) {
     event.preventDefault();
     templateMain('skillsPage');
+    menuDeploy();
 }
 function handleClickCertific(event) {
     event.preventDefault();
     templateMain('certificationsPage');
+    menuDeploy();
 }
