@@ -1,4 +1,15 @@
-
+// Configuración global
+html {
+    font-size: 62.5%; // 1rem = 10px
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 
 // Atoms
 @import '../src/atoms/text/texts';
