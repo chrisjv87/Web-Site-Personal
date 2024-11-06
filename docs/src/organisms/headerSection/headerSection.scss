@@ -4,24 +4,24 @@
     padding: 0;
 }
 
-
 .header__container {
     display: flex;
     width: 375px;
-    height: 60px;
-    align-items: center;
+    height: 50px;
     justify-content: space-between;
-    padding: 0 16px;
-    background-color: rgb(199, 199, 199);
-
+    align-items: center;
+    padding: 0 20px;
+    border: 1px solid black;
 
     @media(min-width: 768px) {
         width: 712px;
-        height: 80px;
+        height: 60px;
+        padding: 0 30px;
     }
 
     @media(min-width: 1440px) {
         width: 1384px;
-        height: 100px;
+        height: 70px;
+        padding: 0 40px;
     }
 }

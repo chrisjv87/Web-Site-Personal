@@ -6,7 +6,6 @@
 
 .footer__links-group {
     width: 343px;
-    border: 1px solid black;
 
     .footer__links-title {
         text-align: start;
@@ -14,6 +13,9 @@
     }
 
     .footer__links-options {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         margin: 16px;
         padding: 0 16px;
         list-style: none;

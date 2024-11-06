@@ -6,40 +6,39 @@
 
 .icon {
     display: inline-block;
-    width: 28px;
-    height: 28px;
+    width: 20px;
+    height: 20px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
     @media(min-width: 768px) {
-        width: 36px;
-        height: 36px;
+        width: 25px;
+        height: 25px;
     }
 
     @media(min-width: 1440px) {
-        width: 44px;
-        height: 44px;
+        width: 30px;
+        height: 30px;
     }
 }
 
-.icon--linkedin {
+.icon__linkedin {
     background-image: url('../assets/icons/Icon-Linkdin.svg');
 }
 
-.icon--github {
+.icon__github {
     background-image: url('../assets/icons/Icon-Github.svg');
 }
 
-.icon--whatsapp {
+.icon__whatsapp {
     background-image: url('../assets/icons/Icon-Whatsapp.svg');
 }
 
-.icon--gmail {
+.icon__gmail {
     background-image: url('../assets/icons/Icon-Gmail.svg');
 }
 
-.icon--figma {
+.icon__figma {
     background-image: url('../assets/icons/Icon-Figma.svg');
-
 }

@@ -24,23 +24,32 @@
     .footer__cards {
         display: flex;
         flex-direction: column;
+        margin: 16px;
         gap: 16px;
 
         .footer__resources {
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: flex-start;
+            padding: 20px;
 
             .footer__content {
                 display: flex;
-                .footer__training, .footer__consult {
-                    width: 171.5px;
+                align-items: flex-end;
+                .footer__training {
+                    width: 150px;
+                    align-items: center;
+                }
+                .footer__consult {
+                    width: 161px;
+                    align-items: center;
                 }
             }
         }
         
         .footer__website {
-            width: 171.5px;
+            width: 155.5px;
+            padding: 20px;
         }
 
     }

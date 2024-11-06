@@ -1,11 +1,7 @@
 
 .header__menu {
+    height: 30px;
     position: relative;
-
-    .header__button {
-        display: inline-block;
-        cursor: pointer;
-    }
 
     .header__options {
         position: absolute;
@@ -27,6 +23,10 @@
                 background-color: #f1f1f1;
             }
         }
+    }
+
+    @media(min-width: 768px) {
+        height: 40px;
     }
     
     @media(min-width: 1440px) {

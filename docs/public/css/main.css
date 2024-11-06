@@ -106,13 +106,14 @@
 
 .header__button {
   display: inline-block;
+  cursor: pointer;
   padding: 0;
   border: 0;
 }
-.header__button .icon {
+.header__button .header__icon {
   display: block;
-  width: 38px;
-  height: 38px;
+  width: 30px;
+  height: 30px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -120,9 +121,9 @@
   background-color: white;
 }
 @media (min-width: 768px) {
-  .header__button .icon {
-    width: 60px;
-    height: 60px;
+  .header__button .header__icon {
+    width: 40px;
+    height: 40px;
   }
 }
 
@@ -163,28 +164,6 @@
 }
 @media (min-width: 1440px) {
   .btn {
-    width: 60px;
-    height: 60px;
-  }
-}
-
-.header__button {
-  display: inline-block;
-  padding: 0;
-  border: 0;
-}
-.header__button .icon {
-  display: block;
-  width: 38px;
-  height: 38px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url("../assets/icons/Icon-Menu-Burger.svg");
-  background-color: white;
-}
-@media (min-width: 768px) {
-  .header__button .icon {
     width: 60px;
     height: 60px;
   }
@@ -257,42 +236,42 @@
 
 .icon {
   display: inline-block;
-  width: 28px;
-  height: 28px;
+  width: 20px;
+  height: 20px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 @media (min-width: 768px) {
   .icon {
-    width: 36px;
-    height: 36px;
+    width: 25px;
+    height: 25px;
   }
 }
 @media (min-width: 1440px) {
   .icon {
-    width: 44px;
-    height: 44px;
+    width: 30px;
+    height: 30px;
   }
 }
 
-.icon--linkedin {
+.icon__linkedin {
   background-image: url("../assets/icons/Icon-Linkdin.svg");
 }
 
-.icon--github {
+.icon__github {
   background-image: url("../assets/icons/Icon-Github.svg");
 }
 
-.icon--whatsapp {
+.icon__whatsapp {
   background-image: url("../assets/icons/Icon-Whatsapp.svg");
 }
 
-.icon--gmail {
+.icon__gmail {
   background-image: url("../assets/icons/Icon-Gmail.svg");
 }
 
-.icon--figma {
+.icon__figma {
   background-image: url("../assets/icons/Icon-Figma.svg");
 }
 
@@ -312,21 +291,18 @@
 .header__logo {
   width: 80px;
   height: 40px;
-  margin: 16px;
   background-image: url("../assets/img/Logo-Chrisjv87.svg");
 }
 @media (min-width: 768px) {
   .header__logo {
-    width: 110px;
-    height: 55px;
-    margin: 18px;
+    width: 100px;
+    height: 50px;
   }
 }
 @media (min-width: 1440px) {
   .header__logo {
-    width: 140px;
-    height: 70px;
-    margin: 20px;
+    width: 120px;
+    height: 60px;
   }
 }
 
@@ -484,25 +460,21 @@
 
 .footer__icons {
   display: flex;
-  width: 195px;
-  height: 50px;
-  margin: 16px;
+  width: 170px;
+  height: 40px;
   justify-content: space-between;
   align-items: center;
-  gap: 10px;
 }
 @media (min-width: 768px) {
   .footer__icons {
-    width: 300px;
-    height: 68px;
-    margin: 18px;
+    width: 220px;
+    height: 50px;
   }
 }
 @media (min-width: 1440px) {
   .footer__icons {
-    width: 364px;
-    height: 84px;
-    margin: 20px;
+    width: 270px;
+    height: 60px;
   }
 }
 
@@ -514,13 +486,15 @@
 
 .footer__links-group {
   width: 343px;
-  border: 1px solid black;
 }
 .footer__links-group .footer__links-title {
   text-align: start;
   margin: 16px;
 }
 .footer__links-group .footer__links-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 16px;
   padding: 0 16px;
   list-style: none;
@@ -551,11 +525,8 @@
 }
 
 .header__menu {
+  height: 30px;
   position: relative;
-}
-.header__menu .header__button {
-  display: inline-block;
-  cursor: pointer;
 }
 .header__menu .header__options {
   position: absolute;
@@ -575,6 +546,11 @@
 }
 .header__menu .header__options a:hover {
   background-color: #f1f1f1;
+}
+@media (min-width: 768px) {
+  .header__menu {
+    height: 40px;
+  }
 }
 @media (min-width: 1440px) {
   .header__menu .header__button {
@@ -603,22 +579,24 @@
 .header__container {
   display: flex;
   width: 375px;
-  height: 60px;
-  align-items: center;
+  height: 50px;
   justify-content: space-between;
-  padding: 0 16px;
-  background-color: rgb(199, 199, 199);
+  align-items: center;
+  padding: 0 20px;
+  border: 1px solid black;
 }
 @media (min-width: 768px) {
   .header__container {
     width: 712px;
-    height: 80px;
+    height: 60px;
+    padding: 0 30px;
   }
 }
 @media (min-width: 1440px) {
   .header__container {
     width: 1384px;
-    height: 100px;
+    height: 70px;
+    padding: 0 40px;
   }
 }
 
@@ -776,21 +754,30 @@
 .footer__container .footer__cards {
   display: flex;
   flex-direction: column;
+  margin: 16px;
   gap: 16px;
 }
 .footer__container .footer__cards .footer__resources {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  padding: 20px;
 }
 .footer__container .footer__cards .footer__resources .footer__content {
   display: flex;
+  align-items: flex-end;
 }
-.footer__container .footer__cards .footer__resources .footer__content .footer__training, .footer__container .footer__cards .footer__resources .footer__content .footer__consult {
-  width: 171.5px;
+.footer__container .footer__cards .footer__resources .footer__content .footer__training {
+  width: 150px;
+  align-items: center;
+}
+.footer__container .footer__cards .footer__resources .footer__content .footer__consult {
+  width: 161px;
+  align-items: center;
 }
 .footer__container .footer__cards .footer__website {
-  width: 171.5px;
+  width: 155.5px;
+  padding: 20px;
 }
 .footer__container .footer__social-media {
   display: flex;
