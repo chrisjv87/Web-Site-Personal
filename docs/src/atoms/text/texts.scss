@@ -33,7 +33,7 @@ $font-primary: 'Roboto', sans-serif;
     line-height: 1.5;
     font-weight: 500;
     text-align: center;
-    margin-bottom: 16px;
+    margin: 16px 0;
     color: black;
 }
 
@@ -69,7 +69,7 @@ $font-primary: 'Roboto', sans-serif;
     .subtitle {
         font-size: 24px;
         line-height: 1.5;
-        margin-bottom: 20px;
+        margin: 24px 0;
     }
     
     .text {
@@ -91,13 +91,13 @@ $font-primary: 'Roboto', sans-serif;
     .title {
         font-size: 48px;
         line-height: 1.3;
-        margin-bottom: 40px;
+        margin: 32px 0;
     }
     
     .subtitle {
         font-size: 32px;
         line-height: 1.4;
-        margin-bottom: 30px;
+        margin: 32px 0;
     }
     
     .text {
