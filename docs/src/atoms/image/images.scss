@@ -61,19 +61,19 @@
 }
 
 .project__image {
-    width: 220px;
-    height: 240px;
+    width: 187px;
+    height: 256px;
     border-radius: 20px;
     background-image: url('../assets/img/projects.jpg');
 
     @media(min-width: 768px) {
-        width: 532px;
-        height: 400px;
+        width: 232px;
+        height: 368px;
     };
     
     @media(min-width: 1440px) {
-        width: 550px;
-        height: 500px;
+        width: 427px;
+        height: 486px;
     };
 }
 

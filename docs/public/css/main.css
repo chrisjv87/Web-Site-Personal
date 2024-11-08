@@ -166,12 +166,6 @@ html {
   background-position: center;
   background-color: white;
 }
-@media (min-width: 768px) {
-  .btn {
-    width: 45px;
-    height: 45px;
-  }
-}
 @media (min-width: 1440px) {
   .btn {
     width: 60px;
@@ -352,21 +346,21 @@ html {
 }
 
 .project__image {
-  width: 220px;
-  height: 240px;
+  width: 187px;
+  height: 256px;
   border-radius: 20px;
   background-image: url("../assets/img/projects.jpg");
 }
 @media (min-width: 768px) {
   .project__image {
-    width: 532px;
-    height: 400px;
+    width: 232px;
+    height: 368px;
   }
 }
 @media (min-width: 1440px) {
   .project__image {
-    width: 550px;
-    height: 500px;
+    width: 427px;
+    height: 486px;
   }
 }
 
@@ -1032,51 +1026,146 @@ body .footer {
   }
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 .project__container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
   width: 343px;
-  padding: 10px;
-  gap: 20px;
+  margin: 16px;
   border: 1px solid black;
+}
+.project__container .project__title {
+  margin: 24px;
+  margin-bottom: 0;
 }
 .project__container .project__card {
   display: flex;
+  width: 295px;
+  margin: 24px;
   flex-direction: column;
-  align-items: center;
-  width: 311px;
-  padding: 10px;
-  gap: 10px;
   border: 1px solid black;
-  text-align: justify;
 }
 .project__container .project__card .project__buttons {
   display: flex;
+  width: 279px;
+  margin: 16px 8px 0 8px;
+  align-items: center;
+}
+.project__container .project__card .project__buttons .project__containerImg {
+  display: flex;
+  width: 211px;
+  height: 280px;
+  margin: 4px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+.project__container .project__card .project__buttons .button__prevBtn, .project__container .project__card .project__buttons .button__nextBtn {
+  height: 30px;
+}
+.project__container .project__card .project__content {
+  display: flex;
+  width: 263px;
+  margin: 16px;
+  margin-top: 0;
+  flex-direction: column;
+  text-align: center;
+  gap: 12px;
+}
+.project__container .project__card .project__content .project__links {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 8px;
 }
 @media (min-width: 768px) {
   .project__container {
-    width: 712px;
+    width: 720px;
+    margin: 24px;
+  }
+  .project__container .project__title {
+    margin: 32px;
+    margin-bottom: 0;
   }
   .project__container .project__card {
-    width: 672px;
+    width: 656px;
+    height: 500px;
+    margin: 32px;
+    flex-direction: row;
+    gap: 16px;
+  }
+  .project__container .project__card .project__buttons {
+    display: flex;
+    width: 324px;
+    margin: 24px 0;
+    margin-left: 24px;
+  }
+  .project__container .project__card .project__buttons .project__containerImg {
+    display: flex;
+    width: 264px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+  }
+  .project__container .project__card .project__content {
+    display: flex;
+    width: 266px;
+    margin: 24px;
+    margin-left: 0;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
+  }
+  .project__container .project__card .project__content .project__links {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 12px;
   }
 }
 @media (min-width: 1440px) {
   .project__container {
-    width: 1368px;
+    width: 1376px;
+    margin: 32px;
+  }
+  .project__container .project__title {
+    margin: 48px;
+    margin-bottom: 0;
   }
   .project__container .project__card {
-    width: 1312px;
+    width: 1280px;
+    height: 600px;
+    margin: 48px;
+    margin-top: 32px;
     flex-direction: row-reverse;
+    gap: 24px;
+  }
+  .project__container .project__card .project__buttons {
+    display: flex;
+    width: 596px;
+    margin: 32px;
+    margin-left: 0;
+  }
+  .project__container .project__card .project__buttons .project__containerImg {
+    display: flex;
+    width: 475px;
+    height: 534px;
+    border: 1px solid black;
+  }
+  .project__container .project__card .project__content {
+    display: flex;
+    width: 596px;
+    margin: 32px;
+    margin-right: 0;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 24px;
+  }
+  .project__container .project__card .project__content .project__links {
+    display: flex;
     justify-content: space-evenly;
+    margin: 16px;
   }
 }
 
