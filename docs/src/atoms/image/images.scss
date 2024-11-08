@@ -41,19 +41,22 @@
 
 
 .about__image {
-    width: 300px;
-    height: 250px;
+    width: 263px;
+    height: 363px;
+    margin: 16px;
     border-radius: 20px;
     background-image: url('../assets/img/profile.jpeg');
 
     @media(min-width: 768px) {
-        width: 450px;
-        height: 400px;
+        width: 352px;
+        height: 452px;
+        margin: 24px;
     };
     
     @media(min-width: 1440px) {
-        width: 500px;
-        height: 700px;
+        width: 436px;
+        height: 636px;
+        margin: 32px;
     };
 }
 

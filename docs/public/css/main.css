@@ -51,7 +51,6 @@ html {
   font-size: 16px;
   line-height: 1.6;
   font-weight: 400;
-  text-align: justify;
   color: black;
 }
 
@@ -60,7 +59,6 @@ html {
   font-size: 14px;
   line-height: 1.5;
   font-weight: 300;
-  text-align: justify;
   color: black;
 }
 
@@ -332,21 +330,24 @@ html {
 }
 
 .about__image {
-  width: 300px;
-  height: 250px;
+  width: 263px;
+  height: 363px;
+  margin: 16px;
   border-radius: 20px;
   background-image: url("../assets/img/profile.jpeg");
 }
 @media (min-width: 768px) {
   .about__image {
-    width: 450px;
-    height: 400px;
+    width: 352px;
+    height: 452px;
+    margin: 24px;
   }
 }
 @media (min-width: 1440px) {
   .about__image {
-    width: 500px;
-    height: 700px;
+    width: 436px;
+    height: 636px;
+    margin: 32px;
   }
 }
 
@@ -943,33 +944,37 @@ body .footer {
   }
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 .about__container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   width: 343px;
+  margin: 16px;
   border: 1px solid black;
 }
 .about__container .about__title {
-  margin: 16px 16px 0px 16px;
+  margin: 24px 24px 0px 24px;
 }
 .about__container .about__content {
   display: flex;
   flex-direction: column;
-  width: 311px;
+  width: 295px;
   align-items: center;
-  margin: 16px;
+  margin: 24px;
+}
+.about__container .about__content .about__containerImg {
+  display: flex;
+  width: 295px;
+  height: 395px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
 }
 @media (min-width: 768px) {
   .about__container {
-    width: 712px;
+    width: 720px;
+    margin: 24px;
   }
   .about__container .about__title {
     margin: 24px;
@@ -984,8 +989,8 @@ body .footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 474px;
-    height: 424px;
+    width: 400px;
+    height: 500px;
     border: 1px solid black;
   }
   .about__container .about__content .about__description {
@@ -993,12 +998,12 @@ body .footer {
     flex-direction: column;
     align-items: center;
     width: 632px;
-    padding: 24px;
   }
 }
 @media (min-width: 1440px) {
   .about__container {
-    width: 1368px;
+    width: 1376px;
+    margin: 32px;
   }
   .about__container .about__title {
     margin: 32px 0 0 0;
@@ -1006,16 +1011,17 @@ body .footer {
   .about__container .about__content {
     display: flex;
     flex-direction: row-reverse;
-    width: 1304px;
-    margin: 0 32px 32px 32px;
-    gap: 32px;
+    justify-content: space-between;
+    width: 1280px;
+    margin: 0 48px 48px 48px;
+    gap: 24px;
   }
   .about__container .about__content .about__containerImg {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 524px;
-    height: 724px;
+    width: 500px;
+    height: 700px;
     border: 1px solid black;
   }
   .about__container .about__content .about__description {
@@ -1074,122 +1080,283 @@ body .footer {
   }
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 .skills__container {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 343px;
-  gap: 15px;
+  margin: 16px;
+  border: 1px solid black;
+}
+.skills__container .skills__title {
+  margin: 24px 0 0 0;
+}
+.skills__container .skills__description {
+  margin: 24px;
+  margin-bottom: 0;
 }
 .skills__container .skills__content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 311px;
-  padding: 10px;
+  width: 295px;
+  margin: 24px;
   border: 1px solid black;
-  gap: 15px;
+  gap: 16px;
 }
 .skills__container .skills__content .skills__technical {
-  width: 279px;
-  padding: 10px;
-  gap: 10px;
+  width: 263px;
+  margin-top: 16px;
   border: 1px solid black;
+}
+.skills__container .skills__content .skills__technical .skills__subtitle {
+  display: flex;
+  height: 40px;
+  margin: 16px;
+  align-items: center;
+  justify-content: center;
 }
 .skills__container .skills__content .skills__technical .skills__tlist {
   display: flex;
+  width: 231px;
+  margin: 16px;
   flex-direction: column;
-  gap: 5px;
+  gap: 8px;
 }
 .skills__container .skills__content .skills__technical .skills__tlist .skills__item {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 20px;
 }
 .skills__container .skills__content .skills__tools {
-  width: 279px;
-  padding: 10px;
-  gap: 10px;
+  width: 263px;
   border: 1px solid black;
+}
+.skills__container .skills__content .skills__tools .skills__subtitle {
+  display: flex;
+  height: 60px;
+  margin: 16px;
+  align-items: center;
+  justify-content: center;
 }
 .skills__container .skills__content .skills__tools .skills__tlist {
   display: flex;
+  width: 231px;
+  margin: 16px;
   flex-direction: column;
-  gap: 5px;
+  gap: 8px;
 }
 .skills__container .skills__content .skills__tools .skills__tlist .skills__item {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 20px;
 }
 .skills__container .skills__content .skills__soft {
-  width: 279px;
-  padding: 10px;
-  gap: 5px;
+  width: 263px;
+  margin-bottom: 16px;
   border: 1px solid black;
 }
+.skills__container .skills__content .skills__soft .skills__subtitle {
+  display: flex;
+  height: 40px;
+  margin: 16px;
+  align-items: center;
+  justify-content: center;
+}
 .skills__container .skills__content .skills__soft .skills__slist {
+  display: flex;
+  width: 231px;
+  flex-direction: column;
+  align-items: center;
+  margin: 16px;
   list-style: none;
+}
+.skills__container .skills__content .skills__soft .skills__slist li {
+  width: 80%;
+  text-align: left;
 }
 @media (min-width: 768px) {
   .skills__container {
-    width: 712px;
+    width: 720px;
+    margin: 24px;
+  }
+  .skills__container .skills__title {
+    margin: 32px 0 0 0;
+  }
+  .skills__container .skills__description {
+    margin: 32px;
+    margin-bottom: 0;
   }
   .skills__container .skills__content {
     display: grid;
+    width: 656px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
     justify-items: center;
-    width: 672px;
-    column-gap: 0;
-    row-gap: 20px;
-    padding: 20px 10px;
+    align-items: center;
+    margin: 32px;
+    gap: 24px;
   }
   .skills__container .skills__content .skills__technical {
-    width: 306px;
-    height: 500px;
+    width: 292px;
+    height: 580px;
     grid-column: 1/2;
     grid-row: 1/2;
+    margin: 24px 0 0 24px;
+  }
+  .skills__container .skills__content .skills__technical .skills__subtitle {
+    height: 70px;
+    margin: 24px;
+  }
+  .skills__container .skills__content .skills__technical .skills__tlist {
+    display: flex;
+    width: 244px;
+    margin: 24px;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .skills__container .skills__content .skills__technical .skills__tlist .skills__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
   }
   .skills__container .skills__content .skills__tools {
-    width: 306px;
-    height: 500px;
+    width: 292px;
+    height: 580px;
     grid-column: 2/3;
     grid-row: 1/2;
+    margin: 24px 24px 0 0;
+  }
+  .skills__container .skills__content .skills__tools .skills__subtitle {
+    height: 70px;
+    margin: 24px;
+  }
+  .skills__container .skills__content .skills__tools .skills__tlist {
+    display: flex;
+    width: 244px;
+    margin: 24px;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .skills__container .skills__content .skills__tools .skills__tlist .skills__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
   }
   .skills__container .skills__content .skills__soft {
-    width: 632px;
+    width: 608px;
+    height: 350px;
     grid-column: 1/3;
     grid-row: 2/3;
+    margin: 0px 24px 24px 24px;
+  }
+  .skills__container .skills__content .skills__soft .skills__subtitle {
+    height: 40px;
+    margin: 24px;
+  }
+  .skills__container .skills__content .skills__soft .skills__slist {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 560px;
+    margin: 24px;
+    list-style: none;
+    gap: 20px;
+  }
+  .skills__container .skills__content .skills__soft .skills__slist li {
+    width: 40%;
+    text-align: left;
   }
 }
 @media (min-width: 1440px) {
   .skills__container {
-    width: 1368px;
+    width: 1376px;
+    margin: 32px;
+  }
+  .skills__container .skills__title {
+    margin: 48px 0 0 0;
+  }
+  .skills__container .skills__description {
+    margin: 48px;
+    margin-bottom: 0;
   }
   .skills__container .skills__content {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    width: 1312px;
+    justify-content: center;
+    width: 1280px;
+    margin: 48px;
+    gap: 32px;
   }
   .skills__container .skills__content .skills__technical {
-    width: 350px;
-    height: 600px;
+    width: 384px;
+    height: 700px;
+    margin: 32px 0;
+  }
+  .skills__container .skills__content .skills__technical .skills__subtitle {
+    height: 90px;
+    margin: 32px;
+  }
+  .skills__container .skills__content .skills__technical .skills__tlist {
+    display: flex;
+    width: 320px;
+    margin: 32px;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .skills__container .skills__content .skills__technical .skills__tlist .skills__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
   }
   .skills__container .skills__content .skills__tools {
-    width: 350px;
-    height: 600px;
+    width: 384px;
+    height: 700px;
+    margin: 32px 0;
+  }
+  .skills__container .skills__content .skills__tools .skills__subtitle {
+    height: 90px;
+    margin: 32px;
+  }
+  .skills__container .skills__content .skills__tools .skills__tlist {
+    display: flex;
+    width: 320px;
+    margin: 32px;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .skills__container .skills__content .skills__tools .skills__tlist .skills__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
   }
   .skills__container .skills__content .skills__soft {
-    width: 350px;
-    height: 600px;
+    width: 384px;
+    height: 700px;
+    margin: 32px 0;
+  }
+  .skills__container .skills__content .skills__soft .skills__subtitle {
+    height: 90px;
+    margin: 32px;
+  }
+  .skills__container .skills__content .skills__soft .skills__slist {
+    display: flex;
+    width: 320px;
+    margin: 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+  }
+  .skills__container .skills__content .skills__soft .skills__slist li {
+    width: 240px;
+    text-align: left;
   }
 }
 
