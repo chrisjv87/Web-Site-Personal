@@ -7,28 +7,22 @@
 .hero__profile {
     display: flex;
     width: 343px;
-    height: 659px;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     border: 1px solid black;
     border-radius: 20px;
-    padding: 20px;
-    gap: 20px;
-    margin-bottom: 30px;
+    margin: 16px;
 
     .hero__container-img {
         display: flex;
-        width: 303px;
-        height: 403px;
+        width: 295px;
+        height: 385px;
+        margin: 24px;
+        margin-bottom: 0;
         justify-content: center;
         align-items: center;
         border: 1px solid black;
-
-        img {
-            width: 271px;
-            height: 371px;
-        }
     }
 
     .hero__content {
@@ -36,52 +30,45 @@
         flex-direction: column;
         align-items: center;
         width: 303px;
+        margin: 24px;
     }
 
 
 
     @media(min-width: 768px) {
-        width: 712px;
-        height: 967px;
-        padding: 30px;
-        gap: 30px;
-        margin-bottom: 40px;
+        width: 720px;
+        margin: 24px;
 
         .hero__container-img {
-            width: 652px;
-            height: 652px;
-
-            img {
-                width: 592px;
-                height: 592px;
-            }
+            width: 656px;
+            height: 656px;
+            margin: 32px;
+            margin-bottom: 0;
         }
-
+        
         .hero__content {
             width: 652px;
+            margin: 32px;
+            
         }
     }
 
     @media(min-width: 1440px) {
         width: 1368px;
-        height: 704px;
-        padding: 40px;
-        gap: 40px;
-        margin-bottom: 50px;
+        margin: 32px;
+        gap: 0;
         flex-direction: row-reverse;
         
         .hero__container-img {
-            width: 624px;
-            height: 624px;
-
-            img {
-                width: 576px;
-                height: 576px;
-            }
+            width: 608px;
+            height: 608px;
+            margin: 48px;
         }
 
         .hero__content {
-            width: 624px;
+            width: 622px;
+            margin: 48px;
+            margin-right: 0;
         }
     }
 }

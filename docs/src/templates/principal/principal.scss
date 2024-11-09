@@ -4,14 +4,25 @@
     padding: 0;
 }
    
-.hero__profile, .hero__cards {
+.hero__profile {
     width: 343px;
-    
     @media(min-width: 768px) {
-        width: 712px;
+        width: 720px;
     }
     
     @media(min-width: 1440px) {
-        width: 1368px;
+        width: 1376px;
     }
+}   
+.hero__cards {
+    width: 343px;
+    @media(min-width: 768px) {
+        width: 720px;
+    }
+    
+    @media(min-width: 1440px) {
+        width: 1376px;
+        margin: 32px;
+    }
+    
 }

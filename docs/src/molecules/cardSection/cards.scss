@@ -12,13 +12,13 @@
     border: 1px solid black;
     align-items: center;
     justify-content: center;
-    padding: 16px;
     
     .card__image {
         display: inline-block;
         position: relative;
-        width: 271px;
-        height: 185px;
+        width: 279px;
+        height: 193px;
+        margin: 12px;
         border-radius: 20px;
         border: 1px solid black;
         background-size: cover;
@@ -38,22 +38,22 @@
     @media(min-width: 768px) {
         width: 652px;
         height: 374px;
-        padding: 20px;
 
         .card__image {
-            width: 604px;
-            height: 334px;
+            width: 620px;
+            height: 342px;
+            margin: 16px;
         }
     }
         
     @media(min-width: 1440px) {
         width: 624px;
-        height: 350px;
-        padding: 24px;
+        height: 346px;
 
         .card__image {
             width: 576px;
-            height: 302px;
+            height: 298px;
+            margin: 24px;
         }
     }
 }
