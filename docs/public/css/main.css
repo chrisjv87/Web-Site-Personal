@@ -319,14 +319,14 @@ html {
 }
 @media (min-width: 768px) {
   .hero__image {
-    width: 624px;
+    width: 504px;
     height: 624px;
     margin: 16px;
   }
 }
 @media (min-width: 1440px) {
   .hero__image {
-    width: 560px;
+    width: 460px;
     height: 560px;
     margin: 24px;
   }
@@ -337,7 +337,7 @@ html {
   height: 371px;
   margin: 12px;
   border-radius: 20px;
-  background-image: url("../assets/img/profile.jpeg");
+  background-image: url("../assets/img/about-me.jpeg");
 }
 @media (min-width: 768px) {
   .about__image {
@@ -356,22 +356,22 @@ html {
 
 .project__image {
   width: 187px;
-  height: 256px;
+  height: 137px;
   margin: 12px;
   border-radius: 20px;
   background-image: url("../assets/img/projects.jpg");
 }
 @media (min-width: 768px) {
   .project__image {
-    width: 194px;
-    height: 368px;
+    width: 478px;
+    height: 318px;
     margin: 16px;
   }
 }
 @media (min-width: 1440px) {
   .project__image {
-    width: 420px;
-    height: 486px;
+    width: 538px;
+    height: 388px;
     margin: 24px;
   }
 }
@@ -385,7 +385,7 @@ html {
 
 .certification__image {
   width: 187px;
-  height: 167px;
+  height: 137px;
   margin: 12px;
   border-radius: 20px;
   background-image: url("../assets/img/projects.jpg");
@@ -400,16 +400,9 @@ html {
 @media (min-width: 1440px) {
   .certification__image {
     width: 538px;
-    height: 486px;
+    height: 388px;
     margin: 24px;
   }
-}
-
-.institut__image {
-  width: 80px;
-  height: 80px;
-  border-radius: 20px;
-  background-image: url("../assets/img/projects.jpg");
 }
 
 * {
@@ -655,7 +648,7 @@ html {
     margin: 24px;
   }
   .hero__profile .hero__container-img {
-    width: 656px;
+    width: 536px;
     height: 656px;
     margin: 32px;
     margin-bottom: 0;
@@ -673,12 +666,12 @@ html {
     flex-direction: row-reverse;
   }
   .hero__profile .hero__container-img {
-    width: 608px;
+    width: 508px;
     height: 608px;
     margin: 48px;
   }
   .hero__profile .hero__content {
-    width: 622px;
+    width: 722px;
     margin: 48px;
     margin-right: 0;
   }
@@ -703,16 +696,17 @@ html {
   gap: 20px;
 }
 .card__container .card__content .card__about {
-  background-image: url("../assets/img/about-me.jpeg");
+  background-image: url("../assets/img/sections/aboutMe.jpeg");
+  background-position: top;
 }
 .card__container .card__content .card__projects {
-  background-image: url("../assets/img/projects.jpg");
+  background-image: url("../assets/img/sections/projects.jpeg");
 }
 .card__container .card__content .card__skills {
-  background-image: url("../assets/img/skills.jpg");
+  background-image: url("../assets/img/sections/skills.jpeg");
 }
 .card__container .card__content .card__certifications {
-  background-image: url("../assets/img/certifications.jpg");
+  background-image: url("../assets/img/sections/certifications.png");
 }
 @media (min-width: 768px) {
   .card__container {
@@ -1073,7 +1067,7 @@ body .footer {
 .project__container .project__card .project__buttons .project__containerImg {
   display: flex;
   width: 211px;
-  height: 280px;
+  height: 159px;
   margin: 4px;
   align-items: center;
   justify-content: center;
@@ -1104,30 +1098,27 @@ body .footer {
   }
   .project__container .project__card {
     width: 656px;
-    height: 500px;
-    margin: 32px;
-    flex-direction: row;
-    gap: 16px;
+    margin: 24px 32px;
   }
   .project__container .project__card .project__buttons {
     display: flex;
-    width: 324px;
-    margin: 24px 0;
-    margin-left: 24px;
+    width: 608px;
+    margin: 24px;
+    margin-bottom: 0;
   }
   .project__container .project__card .project__buttons .project__containerImg {
     display: flex;
-    width: 264px;
-    height: 400px;
+    width: 510px;
+    height: 350px;
     align-items: center;
     justify-content: center;
     border: 1px solid black;
   }
   .project__container .project__card .project__content {
     display: flex;
-    width: 266px;
+    width: 600px;
     margin: 24px;
-    margin-left: 0;
+    margin-top: 0;
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -1154,23 +1145,23 @@ body .footer {
     margin: 48px;
     margin-top: 32px;
     flex-direction: row-reverse;
-    gap: 24px;
+    gap: 0;
   }
   .project__container .project__card .project__buttons {
     display: flex;
-    width: 596px;
+    width: 714px;
     margin: 32px;
     margin-left: 0;
   }
   .project__container .project__card .project__buttons .project__containerImg {
     display: flex;
-    width: 475px;
-    height: 534px;
+    width: 586px;
+    height: 436px;
     border: 1px solid black;
   }
   .project__container .project__card .project__content {
     display: flex;
-    width: 596px;
+    width: 500px;
     margin: 32px;
     margin-right: 0;
     flex-direction: column;
@@ -1496,7 +1487,7 @@ body .footer {
 .certification__container .certification__card .certification__buttons .certification__containerImg {
   display: flex;
   width: 211px;
-  height: 191px;
+  height: 159px;
   margin: 4px;
   align-items: center;
   justify-content: center;
@@ -1510,13 +1501,6 @@ body .footer {
   flex-direction: column;
   text-align: center;
   gap: 8px;
-}
-.certification__container .certification__institutions {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 24px;
-  margin-top: 16px;
 }
 @media (min-width: 768px) {
   .certification__container {
@@ -1560,18 +1544,12 @@ body .footer {
   .certification__container .certification__card .certification__content .certification__name {
     margin-bottom: 16px;
   }
-  .certification__container .certification__institutions {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-    margin-bottom: 32px;
-  }
 }
 @media (min-width: 1440px) {
   .certification__container {
     width: 1376px;
     margin: 32px;
+    padding-bottom: 48px;
   }
   .certification__container .certification__title {
     margin: 48px;
@@ -1585,6 +1563,7 @@ body .footer {
     width: 1280px;
     height: 600px;
     margin: 32px 48px;
+    margin-bottom: 0;
     flex-direction: row-reverse;
     gap: 0;
   }
@@ -1597,7 +1576,7 @@ body .footer {
   .certification__container .certification__card .certification__buttons .certification__containerImg {
     display: flex;
     width: 586px;
-    height: 534px;
+    height: 436px;
     border: 1px solid black;
   }
   .certification__container .certification__card .certification__content {
@@ -1609,10 +1588,6 @@ body .footer {
     justify-content: center;
     text-align: center;
     gap: 24px;
-  }
-  .certification__container .certification__institutions {
-    margin: 0;
-    margin-bottom: 48px;
   }
 }
 

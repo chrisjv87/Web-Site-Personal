@@ -30,13 +30,13 @@
     background-image: url('../assets/img/profile.jpeg');
     
     @media(min-width: 768px) {
-        width: 624px;
+        width: 504px;
         height: 624px;
         margin: 16px;
     }
     
     @media(min-width: 1440px) {
-        width: 560px;
+        width: 460px;
         height: 560px;
         margin: 24px;
     }
@@ -48,7 +48,7 @@
     height: 371px;
     margin: 12px;
     border-radius: 20px;
-    background-image: url('../assets/img/profile.jpeg');
+    background-image: url('../assets/img/about-me.jpeg');
 
     @media(min-width: 768px) {
         width: 368px;
@@ -65,20 +65,20 @@
 
 .project__image {
     width: 187px;
-    height: 256px;
+    height: 137px;
     margin: 12px;
     border-radius: 20px;
     background-image: url('../assets/img/projects.jpg');
 
     @media(min-width: 768px) {
-        width: 194px;
-        height: 368px;
+        width: 478px;
+        height: 318px;
         margin: 16px;
     };
     
     @media(min-width: 1440px) {
-        width: 420px;
-        height: 486px;
+        width: 538px;
+        height: 388px;
         margin: 24px;
     };
 }
@@ -92,7 +92,7 @@
 
 .certification__image {
     width: 187px;
-    height: 167px;
+    height: 137px;
     margin: 12px;
     border-radius: 20px;
     background-image: url('../assets/img/projects.jpg');
@@ -105,7 +105,7 @@
     
     @media(min-width: 1440px) {
         width: 538px;
-        height: 486px;
+        height: 388px;
         margin: 24px;
     };
 }

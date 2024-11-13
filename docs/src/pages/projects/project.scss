@@ -28,7 +28,7 @@
             .project__containerImg {
                 display: flex;
                 width: 211px;
-                height: 280px;
+                height: 159px;
                 margin: 4px;
                 align-items: center;
                 justify-content: center;
@@ -64,22 +64,19 @@
 
         .project__card {
             width: 656px;
-            height: 500px;
-            margin: 32px;
-            flex-direction: row;
-            gap: 16px;
+            margin: 24px 32px;
 
             .project__buttons {
                 display: flex;
-                width: 324px;
-                margin: 24px 0;
-                margin-left: 24px;
+                width: 608px;
+                margin: 24px;
+                margin-bottom: 0;
 
     
                 .project__containerImg {
                     display: flex;
-                    width: 264px;
-                    height: 400px;
+                    width: 510px;
+                    height: 350px;
                     align-items: center;
                     justify-content: center;
                     border: 1px solid black;
@@ -88,9 +85,9 @@
 
             .project__content {
                 display: flex;
-                width: 266px;
+                width: 600px;
                 margin: 24px;
-                margin-left: 0;
+                margin-top: 0;
                 flex-direction: column;
                 justify-content: center;
                 text-align: center;
@@ -118,31 +115,29 @@
         .project__card {
             width: 1280px;
             height: 600px;
-            margin: 48px;
+            margin:48px;
             margin-top: 32px;
             flex-direction: row-reverse;
-            gap: 24px;
+            gap: 0;
 
             .project__buttons {
                 display: flex;
-                width: 596px;
+                width: 714px;
                 margin: 32px;
                 margin-left: 0;
 
     
                 .project__containerImg {
                     display: flex;
-                    width: 475px;
-                    height: 534px;
-                    // align-items: center;
-                    // justify-content: center;
+                    width: 586px;
+                    height: 436px;
                     border: 1px solid black;
                 }
             }
 
             .project__content {
                 display: flex;
-                width: 596px;
+                width: 500px;
                 margin: 32px;
                 margin-right: 0;
                 flex-direction: column;

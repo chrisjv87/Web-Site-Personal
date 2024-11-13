@@ -32,7 +32,7 @@
             .certification__containerImg {
                 display: flex;
                 width: 211px;
-                height: 191px;
+                height: 159px;
                 margin: 4px;
                 align-items: center;
                 justify-content: center;
@@ -49,14 +49,6 @@
             text-align: center;
             gap: 8px;
         }
-    }
-
-    .certification__institutions {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 24px;
-        margin-top: 16px;
     }
 
     @media(min-width: 768px) {
@@ -107,19 +99,13 @@
                 }
             }
         }
-
-        .certification__institutions {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: 0;
-            margin-bottom: 32px;
-        }
     }
 
     @media(min-width: 1440px) {
         width: 1376px;
         margin: 32px;
+        padding-bottom: 48px;
+
 
         .certification__title {
             margin: 48px;
@@ -135,6 +121,7 @@
             width: 1280px;
             height: 600px;
             margin: 32px 48px;
+            margin-bottom: 0;
             flex-direction: row-reverse;
             gap: 0;
 
@@ -148,9 +135,7 @@
                 .certification__containerImg {
                     display: flex;
                     width: 586px;
-                    height: 534px;
-                    // align-items: center;
-                    // justify-content: center;
+                    height: 436px;
                     border: 1px solid black;
                 }
             }
@@ -165,11 +150,6 @@
                 text-align: center;
                 gap: 24px;
             }
-        }
-
-        .certification__institutions {
-            margin: 0;
-            margin-bottom: 48px;
         }
     }
 

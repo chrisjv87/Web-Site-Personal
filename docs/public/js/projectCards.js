@@ -2,7 +2,7 @@
 const projects = [
     {
         title: 'Todo Machine',
-        image: 'public/assets/img/todoMachine.png',
+        image: 'public/assets/img/projects/todoMachine.png',
         description: 'Creacion de una lista de tareas con React.',
         tools: 'HTML, CSS, JavaScript, React.',
         deploy: 'https://chrisjv87.github.io/Todo-Machine/',
@@ -10,7 +10,7 @@ const projects = [
     },
     {
         title: 'Yard Sale',
-        image: 'public/assets/img/yardSale.png',
+        image: 'public/assets/img/projects/yardSale.png',
         description: 'Creando una Tienda en Linea.',
         tools: 'HTML, CSS, JavaScript.',
         deploy: 'https://chrisjv87.github.io/Yard-Sale/',
@@ -18,7 +18,7 @@ const projects = [
     },
     {
         title: 'Platzi Travel',
-        image: 'public/assets/img/platziTravel.png',
+        image: 'public/assets/img/projects/platziTravel.png',
         description: 'Implementando estilos con Tailwind.',
         tools: 'HTML, Tailwind.',
         deploy: 'https://chrisjv87.github.io/Platzi-Travel/',
@@ -26,7 +26,7 @@ const projects = [
     },
     {
         title: 'Cat Photos',
-        image: 'public/assets/img/catPhotos.png',
+        image: 'public/assets/img/projects/catPhotos.png',
         description: 'Consumo de API para ver y almacenar diferentes imagenes de gatos.',
         tools: 'HTML, CSS, JavaScript.',
         deploy: 'https://chrisjv87.github.io/Cat-Photos/',
@@ -34,7 +34,7 @@ const projects = [
     },
     {
         title: 'Eco Store',
-        image: 'public/assets/img/ecoStore.png',
+        image: 'public/assets/img/projects/ecoStore.png',
         description: 'Implementando Sass para los estilos.',
         tools: 'HTML, Sass.',
         deploy: 'https://chrisjv87.github.io/Eco-Store/',
@@ -42,7 +42,7 @@ const projects = [
     },
     {
         title: 'Batatabit',
-        image: 'public/assets/img/batatabit.png',
+        image: 'public/assets/img/projects/batataBit.png',
         description: 'Responsive Design con Mobile First',
         tools: 'HTML, CSS.',
         deploy: 'https://chrisjv87.github.io/Batatabit/',
