@@ -1,40 +1,89 @@
 
 const certifications = [
     {
-        title: 'Certificado 1',
-        image: 'public/assets/img/certifications.jpg',
-        issued: 'Institucion que emite del Certificado 1',
-        date: 'Fecha de emision',
-        link: '#'
-    },
-    {
-        title: 'Certificado 2',
-        image: 'public/assets/img/about-me.jpeg',
-        issued: 'Institucion que emite del Certificado 1',
-        date: 'Fecha de emision',
-        link: '#'
-    },
-    {
-        title: 'Certificado 3',
-        image: 'public/assets/img/profile.jpeg',
-        issued: 'Institucion que emite del Certificado 1',
-        date: 'Fecha de emision',
-        link: '#'
-    },
-    {
-        title: 'Certificado 4',
-        image: 'public/assets/img/projects.jpg',
-        issued: 'Institucion que emite del Certificado 1',
-        date: 'Fecha de emision',
-        link: '#'
-    },
-    {
-        title: 'Certificado 5',
+        title: 'Curso Práctico de JavaScript.',
         image: 'public/assets/img/skills.jpg',
-        issued: 'Institucion que emite del Certificado 1',
-        date: 'Fecha de emision',
-        link: '#'
-    }
+        issued: 'Platzi',
+        date: 'Octubre 2023',
+        link: 'https://platzi.com/p/chrisjv87/curso/3271-course/diploma/detalle/'
+    },
+    {
+        title: 'Curso Básico de Programación Orientada a Objetos con JavaScript.',
+        image: 'public/assets/img/skills.jpg',
+        issued: 'Platzi',
+        date: 'Octubre 2023',
+        link: 'https://platzi.com/p/chrisjv87/curso/2332-course/diploma/detalle/'
+    },
+    {
+        title: 'Curso de Manipulación de Arrays en JavaScript.',
+        image: 'public/assets/img/skills.jpg',
+        issued: 'Platzi',
+        date: 'Enero 2024',
+        link: 'https://platzi.com/p/chrisjv87/curso/2461-course/diploma/detalle/'
+    },
+    {
+        title: 'Curso Profesional de Git y Github.',
+        image: 'public/assets/img/skills.jpg',
+        issued: 'Platzi',
+        date: 'Septiembre 2023',
+        link: 'https://platzi.com/p/chrisjv87/curso/1557-course/diploma/detalle/'
+    },
+    {
+        title: 'Curso Profesional de Scrum',
+        image: 'public/assets/img/about-me.jpeg',
+        issued: 'Platzi',
+        date: 'Septiembre 2024',
+        link: 'https://platzi.com/p/chrisjv87/curso/1750-course/diploma/detalle/'
+    },
+    {
+        title: 'Curso Básico de Tailwind 2 y 3',
+        image: 'public/assets/img/certifications.jpg',
+        issued: 'Platzi',
+        date: 'Septiembre 2024',
+        link: 'https://platzi.com/p/chrisjv87/curso/2702-course/diploma/detalle/'
+    },
+    {
+        title: 'Curso de Fundamentos de Sass',
+        image: 'public/assets/img/projects.jpg',
+        issued: 'Platzi',
+        date: 'Agosto 2024',
+        link: 'https://platzi.com/p/chrisjv87/curso/6867-course/diploma/detalle/'
+    },
+    {
+        title: 'Curso de Arquitecturas CSS',
+        image: 'public/assets/img/profile.jpeg',
+        issued: 'Platzi',
+        date: 'Agosto 2024',
+        link: 'https://platzi.com/p/chrisjv87/curso/7991-course/diploma/detalle/'
+    },
+    {
+        title: 'Curso Básico de Figma',
+        image: 'public/assets/img/skills.jpg',
+        issued: 'Platzi',
+        date: 'Julio 2024',
+        link: 'https://platzi.com/p/chrisjv87/curso/4038-course/diploma/detalle/'
+    },
+    {
+        title: 'Curso de Introducción a la Terminal y Línea de Comandos.',
+        image: 'public/assets/img/skills.jpg',
+        issued: 'Platzi',
+        date: 'Febrero 2023',
+        link: 'https://platzi.com/p/chrisjv87/curso/2292-course/diploma/detalle/'
+    },
+    {
+        title: 'Curso Práctico de Frontend Developer',
+        image: 'public/assets/img/skills.jpg',
+        issued: 'Platzi',
+        date: 'Octubre 2022',
+        link: 'https://platzi.com/p/chrisjv87/curso/2477-course/diploma/detalle/'
+    },
+    {
+        title: 'Curso de Responsive Design: Maquetación Mobile First',
+        image: 'public/assets/img/skills.jpg',
+        issued: 'Platzi',
+        date: 'Octubre 2022',
+        link: 'https://platzi.com/p/chrisjv87/curso/2030-course/diploma/detalle/'
+    },
 ];
   
 let currentCertification = 0;

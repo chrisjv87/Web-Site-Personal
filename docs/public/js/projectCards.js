@@ -5,16 +5,16 @@ const projects = [
         image: 'public/assets/img/todoMachine.png',
         description: 'Creacion de una lista de tareas con React.',
         tools: 'HTML, CSS, JavaScript, React.',
-        linkDeploy: 'https://chrisjv87.github.io/Todo-Machine/',
-        linkRepository: 'https://github.com/chrisjv87/Todo-Machine'
+        deploy: 'https://chrisjv87.github.io/Todo-Machine/',
+        repository: 'https://github.com/chrisjv87/Todo-Machine'
     },
     {
         title: 'Yard Sale',
         image: 'public/assets/img/yardSale.png',
         description: 'Creando una Tienda en Linea.',
         tools: 'HTML, CSS, JavaScript.',
-        linkDeploy: 'https://chrisjv87.github.io/Yard-Sale/',
-        linkRepository: 'https://github.com/chrisjv87/Yard-Sale'
+        deploy: 'https://chrisjv87.github.io/Yard-Sale/',
+        repository: 'https://github.com/chrisjv87/Yard-Sale'
     },
     {
         title: 'Platzi Travel',
@@ -29,8 +29,8 @@ const projects = [
         image: 'public/assets/img/catPhotos.png',
         description: 'Consumo de API para ver y almacenar diferentes imagenes de gatos.',
         tools: 'HTML, CSS, JavaScript.',
-        linkDeploy: 'https://chrisjv87.github.io/Cat-Photos/',
-        linkRepository: 'https://github.com/chrisjv87/Cat-Photos'
+        deploy: 'https://chrisjv87.github.io/Cat-Photos/',
+        repository: 'https://github.com/chrisjv87/Cat-Photos'
     },
     {
         title: 'Eco Store',
