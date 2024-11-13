@@ -1,36 +1,52 @@
 
 const projects = [
     {
-        title: 'Proyecto 1',
-        image: 'public/assets/img/about-me.jpeg',
-        description: 'Descripción del Proyecto 1',
-        tools: 'Tecnologías utilizadas: Lista las herramientas y lenguajes de programación que utilizaste.',
-        linkDeploy: '#',
-        linkRepository: '#'
+        title: 'Todo Machine',
+        image: 'public/assets/img/todoMachine.png',
+        description: 'Creacion de una lista de tareas con React.',
+        tools: 'HTML, CSS, JavaScript, React.',
+        linkDeploy: 'https://chrisjv87.github.io/Todo-Machine/',
+        linkRepository: 'https://github.com/chrisjv87/Todo-Machine'
     },
     {
-        title: 'Proyecto 2',
-        image: 'public/assets/img/projects.jpg',
-        description: 'Descripción del Proyecto 2',
-        tools: 'Tecnologías utilizadas: Lista las herramientas y lenguajes de programación que utilizaste.',
-        linkDeploy: '#',
-        linkRepository: '#'
+        title: 'Yard Sale',
+        image: 'public/assets/img/yardSale.png',
+        description: 'Creando una Tienda en Linea.',
+        tools: 'HTML, CSS, JavaScript.',
+        linkDeploy: 'https://chrisjv87.github.io/Yard-Sale/',
+        linkRepository: 'https://github.com/chrisjv87/Yard-Sale'
     },
     {
-        title: 'Proyecto 3',
-        image: 'public/assets/img/skills.jpg',
-        description: 'Descripción del Proyecto 3',
-        tools: 'Tecnologías utilizadas: Lista las herramientas y lenguajes de programación que utilizaste.',
-        linkDeploy: '#',
-        linkRepository: '#'
+        title: 'Platzi Travel',
+        image: 'public/assets/img/platziTravel.png',
+        description: 'Implementando estilos con Tailwind.',
+        tools: 'HTML, Tailwind.',
+        deploy: 'https://chrisjv87.github.io/Platzi-Travel/',
+        repository: 'https://github.com/chrisjv87/Platzi-Travel'
     },
     {
-        title: 'Proyecto 4',
-        image: 'public/assets/img/certifications.jpg',
-        description: 'Descripción del Proyecto 4',
-        tools: 'Tecnologías utilizadas: Lista las herramientas y lenguajes de programación que utilizaste.',
-        deploy: '#',
-        repository: '#'
+        title: 'Cat Photos',
+        image: 'public/assets/img/catPhotos.png',
+        description: 'Consumo de API para ver y almacenar diferentes imagenes de gatos.',
+        tools: 'HTML, CSS, JavaScript.',
+        linkDeploy: 'https://chrisjv87.github.io/Cat-Photos/',
+        linkRepository: 'https://github.com/chrisjv87/Cat-Photos'
+    },
+    {
+        title: 'Eco Store',
+        image: 'public/assets/img/ecoStore.png',
+        description: 'Implementando Sass para los estilos.',
+        tools: 'HTML, Sass.',
+        deploy: 'https://chrisjv87.github.io/Eco-Store/',
+        repository: 'https://github.com/chrisjv87/Eco-Store'
+    },
+    {
+        title: 'Batatabit',
+        image: 'public/assets/img/batatabit.png',
+        description: 'Responsive Design con Mobile First',
+        tools: 'HTML, CSS.',
+        deploy: 'https://chrisjv87.github.io/Batatabit/',
+        repository: 'https://github.com/chrisjv87/Batatabit'
     }
 ];
   
