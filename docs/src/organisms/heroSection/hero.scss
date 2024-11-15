@@ -1,12 +1,13 @@
 
 .hero__profile {
     display: flex;
-    width: 343px;
+    width: calc(100vw - 3.2rem);
+    margin: 1.6rem;
+    margin-bottom: 3.2rem;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     border-radius: 20px;
-    margin: 16px;
 
     .hero__container-img {
         display: flex;
@@ -16,7 +17,6 @@
         margin-bottom: 16px;
         justify-content: center;
         align-items: center;
-        // border: 1px solid black;
     }
 
     .hero__content {
@@ -32,8 +32,9 @@
 
 
     @media(min-width: 768px) {
-        width: 720px;
-        margin: 24px;
+        width: calc(100vw - 4.8rem);
+        margin: 2.4rem;
+        margin-bottom: 4.8rem;
 
         .hero__container-img {
             width: 536px;
@@ -51,8 +52,9 @@
     }
 
     @media(min-width: 1440px) {
-        width: 1368px;
-        margin: 32px;
+        width: calc(100vw - 6.4rem);
+        margin: 3.2rem;
+        margin-bottom: 6.4rem;
         flex-direction: row-reverse;
         
         .hero__container-img {

@@ -1,37 +1,32 @@
 
-@mixin container {
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-body {
     overflow-x: hidden;
     .header {
-        @include container;
-        margin-bottom: 28px; 
+        position: fixed;
+        z-index: 1000;
+        background-color: white;
+
         @media(min-width: 768px) {
-            margin-bottom: 34px;
+            margin-bottom: 3.2rem;
         }
         @media(min-width: 1440px) {
-            margin-bottom: 40px;
+            margin-bottom: 4.8rem;
         }
     }
 
-    .main {
-        @include container;
-        margin-bottom: 28px;
-
+    .main {        
+        padding-top: 7.4rem;
+        margin-bottom: 2.4rem; 
         @media(min-width: 768px) {
-            margin-bottom: 34px;
+            padding-top: 8.4rem;
+            margin-bottom: 3.2rem;
         }
         @media(min-width: 1440px) {
-            margin-bottom: 40px;
+            padding-top: 9.4rem;
+            margin-bottom: 4.8rem;
         }
-    }
-
-    .footer {
-        @include container;
-
     }
 }

@@ -234,12 +234,6 @@ html {
   box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.319); /* Sombra ligera */
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 .icon {
   display: inline-block;
   width: 20px;
@@ -449,12 +443,6 @@ html {
   }
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 .footer__icons {
   display: flex;
   width: 170px;
@@ -473,12 +461,6 @@ html {
     width: 270px;
     height: 60px;
   }
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 .footer__links-group {
@@ -527,22 +509,23 @@ html {
 }
 .header__menu .header__options {
   position: absolute;
-  width: 160px;
+  width: 16rem;
   flex-direction: column;
-  right: 0;
-  top: 100%;
+  right: 20%;
+  top: 150%;
   list-style: none;
   background-color: white;
-  border: 1px solid black;
+  border-radius: 15px;
 }
 .header__menu .header__options a {
-  padding: 12px;
+  padding: 1.2rem;
   display: block;
   text-decoration: none;
   color: black;
 }
 .header__menu .header__options a:hover {
   background-color: #f1f1f1;
+  border-radius: 15px;
 }
 @media (min-width: 768px) {
   .header__menu {
@@ -556,48 +539,48 @@ html {
   .header__menu .header__options {
     display: flex;
     position: static;
-    width: 800px;
+    width: 80rem;
     height: 40px;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: white;
     border: none;
-    padding: 10px;
+    box-shadow: none;
   }
 }
 
 .header__container {
   display: flex;
-  width: 375px;
+  width: 100vw;
   height: 50px;
+  padding: 0 1.6rem;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  border-radius: 0 0 20px 20px;
 }
 @media (min-width: 768px) {
   .header__container {
-    width: 712px;
     height: 60px;
-    padding: 0 30px;
+    padding: 0 2.4rem;
   }
 }
 @media (min-width: 1440px) {
   .header__container {
-    width: 1384px;
     height: 70px;
-    padding: 0 40px;
+    padding: 0 3.2rem;
   }
 }
 
 .hero__profile {
   display: flex;
-  width: 343px;
+  width: calc(100vw - 3.2rem);
+  margin: 1.6rem;
+  margin-bottom: 3.2rem;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   border-radius: 20px;
-  margin: 16px;
 }
 .hero__profile .hero__container-img {
   display: flex;
@@ -619,8 +602,9 @@ html {
 }
 @media (min-width: 768px) {
   .hero__profile {
-    width: 720px;
-    margin: 24px;
+    width: calc(100vw - 4.8rem);
+    margin: 2.4rem;
+    margin-bottom: 4.8rem;
   }
   .hero__profile .hero__container-img {
     width: 536px;
@@ -637,8 +621,9 @@ html {
 }
 @media (min-width: 1440px) {
   .hero__profile {
-    width: 1368px;
-    margin: 32px;
+    width: calc(100vw - 6.4rem);
+    margin: 3.2rem;
+    margin-bottom: 6.4rem;
     flex-direction: row-reverse;
   }
   .hero__profile .hero__container-img {
@@ -654,7 +639,15 @@ html {
   }
 }
 
-.card__container {
+.hero__cards {
+  display: flex;
+  width: calc(100vw - 3.2rem);
+  margin: 1.6rem;
+  flex-direction: column;
+  border-radius: 20px;
+  align-items: center;
+}
+.hero__cards .card__container {
   display: flex;
   width: 343px;
   height: 968px;
@@ -664,21 +657,25 @@ html {
   padding: 20px;
   gap: 20px;
 }
-.card__container .card__content .card__about {
+.hero__cards .card__container .card__content .card__about {
   background-image: url("../assets/img/sections/aboutMe.jpeg");
   background-position: top;
 }
-.card__container .card__content .card__projects {
+.hero__cards .card__container .card__content .card__projects {
   background-image: url("../assets/img/sections/projects.jpeg");
 }
-.card__container .card__content .card__skills {
+.hero__cards .card__container .card__content .card__skills {
   background-image: url("../assets/img/sections/skills.jpeg");
 }
-.card__container .card__content .card__certifications {
+.hero__cards .card__container .card__content .card__certifications {
   background-image: url("../assets/img/sections/certifications.png");
 }
 @media (min-width: 768px) {
-  .card__container {
+  .hero__cards {
+    width: calc(100vw - 4.8rem);
+    margin: 2.4rem;
+  }
+  .hero__cards .card__container {
     width: 720px;
     height: 1646px;
     gap: 24px;
@@ -686,7 +683,11 @@ html {
   }
 }
 @media (min-width: 1440px) {
-  .card__container {
+  .hero__cards {
+    width: calc(100vw - 6.4rem);
+    margin: 3.2rem;
+  }
+  .hero__cards .card__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -807,105 +808,40 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   overflow-x: hidden;
 }
 body .header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 28px;
+  position: fixed;
+  z-index: 1000;
+  background-color: white;
 }
 @media (min-width: 768px) {
   body .header {
-    margin-bottom: 34px;
+    margin-bottom: 3.2rem;
   }
 }
 @media (min-width: 1440px) {
   body .header {
-    margin-bottom: 40px;
+    margin-bottom: 4.8rem;
   }
 }
 body .main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 28px;
+  padding-top: 7.4rem;
+  margin-bottom: 2.4rem;
 }
 @media (min-width: 768px) {
   body .main {
-    margin-bottom: 34px;
+    padding-top: 8.4rem;
+    margin-bottom: 3.2rem;
   }
 }
 @media (min-width: 1440px) {
   body .main {
-    margin-bottom: 40px;
-  }
-}
-body .footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-.header__container .header__menu .header__options {
-  display: none;
-}
-@media (min-width: 768px) {
-  .header__container {
-    width: 768px;
-  }
-}
-@media (min-width: 1440px) {
-  .header__container {
-    width: 1440px;
-  }
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-.hero__profile {
-  width: 343px;
-}
-@media (min-width: 768px) {
-  .hero__profile {
-    width: 720px;
-  }
-}
-@media (min-width: 1440px) {
-  .hero__profile {
-    width: 1376px;
-  }
-}
-
-.hero__cards {
-  width: 343px;
-  border-radius: 20px;
-}
-@media (min-width: 768px) {
-  .hero__cards {
-    width: 720px;
-  }
-}
-@media (min-width: 1440px) {
-  .hero__cards {
-    width: 1376px;
-    margin: 32px;
+    padding-top: 9.4rem;
+    margin-bottom: 4.8rem;
   }
 }
 

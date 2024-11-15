@@ -1,26 +1,26 @@
-
 .header__menu {
     height: 30px;
     position: relative;
 
     .header__options {
         position: absolute;
-        width: 160px;
+        width: 16rem;
         flex-direction: column;
-        right: 0;
-        top: 100%;
+        right: 20%;
+        top: 150%;
         list-style: none;
         background-color: white;
-        border: 1px solid black;
+        border-radius: 15px;
             
         a {
-            padding: 12px;
+            padding: 1.2rem;
             display: block;
             text-decoration: none;
             color: black;
             
             &:hover {
                 background-color: #f1f1f1;
+                border-radius: 15px;
             }
         }
     }
@@ -37,14 +37,14 @@
         .header__options {
             display: flex;
             position: static;
-            width: 800px;
+            width: 80rem;
             height: 40px;
             flex-direction: row;
             align-items: center;
-            justify-content: space-evenly;
+            justify-content: space-between;
             background-color: white;
             border: none;
-            padding: 10px;
+            box-shadow: none;
         }
     }
 }
