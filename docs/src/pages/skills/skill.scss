@@ -5,15 +5,14 @@
     align-items: center;
     width: 343px;
     margin: 16px;
-    border: 1px solid black;
-    
+    border-radius: 20px;    
     .skills__title {
-        margin: 24px 0 0 0;
+        margin: 24px;
+        margin-bottom: 16px;
     }
 
     .skills__description {
-        margin: 24px;
-        margin-bottom: 0;
+        margin: 0 24px;
     }
 
     .skills__content {
@@ -22,14 +21,16 @@
         align-items: center;
         width: 295px;
         margin: 24px;
-        border: 1px solid black;
+        margin-top: 16px;
+        border-radius: 20px;
         gap: 16px;
         
 
         .skills__technical {
             width: 263px;
             margin-top: 16px;
-            border: 1px solid black;
+            border-radius: 15px;
+            // border: 1px solid black;
             
             .skills__subtitle {
                 display: flex;
@@ -57,7 +58,8 @@
 
         .skills__tools {
             width: 263px;
-            border: 1px solid black;
+            border-radius: 15px;
+            // border: 1px solid black;
 
             .skills__subtitle {
                 display: flex;
@@ -84,9 +86,10 @@
         }
     
         .skills__soft {
+            border-radius: 15px;
             width: 263px;
             margin-bottom: 16px;
-            border: 1px solid black;
+            // border: 1px solid black;
             
             .skills__subtitle {
                 display: flex;
@@ -117,12 +120,12 @@
         margin: 24px;
 
         .skills__title {
-            margin: 32px 0 0 0;
+            margin: 32px;
+            margin-bottom: 24px;
         }
     
         .skills__description {
-            margin: 32px;
-            margin-bottom: 0;
+            margin: 0 32px;
         }
 
         .skills__content {
@@ -133,6 +136,7 @@
             justify-items: center;
             align-items: center;
             margin: 32px;
+            margin-top: 24px;
             gap: 24px;
 
             .skills__technical {
@@ -226,12 +230,12 @@
         margin: 32px;
 
         .skills__title {
-            margin: 48px 0 0 0;
+            margin: 48px;
+            margin-bottom: 32px;
         }
     
         .skills__description {
-            margin: 48px;
-            margin-bottom: 0;
+            margin: 0 48px;
         }
 
         .skills__content {
@@ -240,6 +244,7 @@
             justify-content: center;
             width: 1280px;
             margin: 48px;
+            margin-top: 32px;
             gap: 32px;
 
             .skills__technical {

@@ -1,9 +1,4 @@
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
 .header__button {
     display: inline-block;
@@ -87,8 +82,18 @@
 }
 
 .hero__button {
-    @include button-common;
+    // @include button-common;
+    background-color: rgb(255, 255, 255); /* Fondo oscuro semitransparente */
+    color: rgb(0, 0, 0); /* Texto blanco */
+    padding: 0.8rem 1.5rem; /* Espaciado interno */
+    font-size: 2rem; /* Tamaño de fuente */
+    font-weight: 600;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.985); /* Sombra ligera */
+    text-align: center;
+    transition: all 0.3s ease; /* Transición suave */
     line-height: 20px;
+    text-decoration: none;
 
     @media(min-width: 768px) {
         width: 250px;
@@ -102,8 +107,24 @@
     }
 }
 
+.hero__button:hover {
+    background-color: rgba(0, 0, 0, 1); /* Fondo claro en hover */
+    color: rgb(255, 255, 255); /* Texto oscuro */
+    box-shadow: 0px 0px 20px 1px rgb(255, 255, 255); /* Sombra ligera */
+
+}
+
 .card__button {
-    @include button-common;
+    // @include button-common;
+    background-color: rgba(0, 0, 0, .6); /* Fondo oscuro semitransparente */
+    color: white; /* Texto blanco */
+    padding: 0.8rem 1.5rem; /* Espaciado interno */
+    font-size: 2rem; /* Tamaño de fuente */
+    font-weight: 600;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px 10px rgba(255, 255, 255, 0.749); /* Sombra ligera */
+    text-align: center;
+    transition: all 0.3s ease; /* Transición suave */
     line-height: 20px;
 
     @media(min-width: 768px) {
@@ -117,5 +138,12 @@
         height: 60px;
         line-height: 30px;
     }
+
+}
+
+.card__button:hover {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo claro en hover */
+    color: black; /* Texto oscuro */
+    box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.319); /* Sombra ligera */
 
 }

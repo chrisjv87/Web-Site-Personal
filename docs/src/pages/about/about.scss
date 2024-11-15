@@ -6,7 +6,6 @@
     justify-content: space-between;
     width: 343px;
     margin: 16px;
-    border: 1px solid black;
 
     .about__title {
         margin: 24px 24px 0px 24px;
@@ -18,14 +17,27 @@
         width: 295px;
         align-items: center;
         margin: 24px;
+        margin-top: 16px;
+        // border: 1px solid black;
+        border-radius: 20px;
 
         .about__containerImg {
             display: flex;
-            width: 295px;
+            width: 263px;
             height: 395px;
             justify-content: center;
             align-items: center;
-            border: 1px solid black;
+            margin: 16px;
+            margin-bottom: 12px;
+        }
+
+        .about__description {
+            margin: 16px;
+            margin-top: 0;
+
+            .about__subtitle {
+                margin: 8px;
+            }
         }
     }
 
@@ -35,14 +47,15 @@
         margin: 24px;
 
         .about__title {
-            margin: 24px;
-
+            margin: 32px;
+            margin-bottom: 24px;
         }
         .about__content {
             display: flex;
             flex-direction: column;
-            width: 664px;
-            margin: 0 24px 24px 24px;
+            width: 656px;
+            margin: 32px;
+            margin-top: 0;
 
 
             .about__containerImg {
@@ -51,14 +64,21 @@
                 justify-content: center;
                 width: 400px;
                 height: 500px;
-                border: 1px solid black;
+                margin: 24px;
+                margin-bottom: 16px;
             }
 
             .about__description {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                width: 632px;
+                width: 608px;
+                margin: 24px;
+                margin-top: 0;
+
+                .about__subtitle {
+                    margin: 12px;
+                }
             }
         }
     }
@@ -68,15 +88,16 @@
         margin: 32px;
 
         .about__title {
-            margin: 32px 0 0 0;
+            margin: 48px;
+            margin-bottom: 32px;
         }
         .about__content {
             display: flex;
             flex-direction: row-reverse;
             justify-content: space-between;
             width: 1280px;
-            margin: 0 48px 48px 48px;
-            gap: 24px;
+            margin: 48px;
+            margin-top: 0;
 
 
             .about__containerImg {
@@ -85,14 +106,21 @@
                 justify-content: center;
                 width: 500px;
                 height: 700px;
-                border: 1px solid black;
+                margin: 32px;
+                margin-left: 24px;
             }
 
             .about__description {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                width: 748px;
+                width: 690px;
+                margin: 32px;
+                margin-right: 0;
+
+                .about__subtitle {
+                    margin: 16px;
+                }
             }
         }
     }

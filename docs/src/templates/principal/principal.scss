@@ -16,6 +16,7 @@
 }   
 .hero__cards {
     width: 343px;
+    border-radius: 20px;
     @media(min-width: 768px) {
         width: 720px;
     }
