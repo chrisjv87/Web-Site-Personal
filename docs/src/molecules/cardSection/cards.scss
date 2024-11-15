@@ -1,19 +1,18 @@
 .card__content {
     display: flex;
-    width: 303px;
-    height: 217px;
-    // border: 1px solid black;
+    width: 100%;
+    height: 22.5rem;
     align-items: center;
     justify-content: center;
     
     .card__image {
         display: inline-block;
         position: relative;
-        width: 279px;
-        height: 193px;
-        margin: 12px;
+        width: 100%;
+        min-width: 30.3rem;
+        max-width: 62rem;
+        height: 100%;
         border-radius: 20px;
-        // border: 1px solid black;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -29,24 +28,22 @@
     }
 
     @media(min-width: 768px) {
-        width: 652px;
-        height: 374px;
+        height: 35rem;
 
         .card__image {
-            width: 620px;
-            height: 342px;
-            margin: 16px;
+            min-width: 62rem;
+            max-width: 140rem;
+            height: 100%;
         }
     }
         
     @media(min-width: 1440px) {
-        width: 624px;
-        height: 346px;
+        height: 40rem;
 
         .card__image {
-            width: 576px;
-            height: 298px;
-            margin: 24px;
+            min-width: 50rem;
+            max-width: 150rem;
+            height: 100%;
         }
     }
 }
