@@ -700,108 +700,107 @@ html {
 .footer__container {
   display: flex;
   flex-direction: column;
-  width: 343px;
+  width: calc(100vw - 3.2rem);
+  margin: 1.6rem;
 }
 .footer__container .divide {
   flex-grow: 1;
-  margin: 0 10px;
+  margin: 0 1rem;
   border-top: 1px solid black;
 }
 .footer__container .footer__logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px 0;
+  margin: 1rem 0;
 }
 .footer__container .footer__cards {
   display: flex;
   flex-direction: column;
-  margin: 16px;
-  gap: 16px;
+  align-items: center;
+  margin: 1.6rem;
+  gap: 1.6rem;
 }
 .footer__container .footer__cards .footer__resources {
   display: flex;
+  width: 100%;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 .footer__container .footer__cards .footer__resources .footer__content {
   display: flex;
-  align-items: flex-end;
+  width: 100%;
+  justify-content: space-evenly;
 }
 .footer__container .footer__cards .footer__resources .footer__content .footer__training {
-  width: 150px;
+  width: 15rem;
 }
 .footer__container .footer__cards .footer__resources .footer__content .footer__consult {
-  width: 161px;
+  width: 16.1rem;
 }
 .footer__container .footer__cards .footer__resources .footer__content .footer__consult h3 {
-  margin: 16px 0 16px 16px;
+  margin: 1.6rem;
+  margin-right: 0;
 }
 .footer__container .footer__cards .footer__website {
-  width: 155.5px;
+  width: 15.5rem;
 }
 .footer__container .footer__social-media {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px 0;
+  margin: 1rem 0;
 }
 .footer__container .footer__rights {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30px;
-  margin-bottom: 16px;
+  height: 3rem;
+  margin-bottom: 1.6rem;
 }
 @media (min-width: 768px) {
-  .footer__container {
-    width: 712px;
-  }
   .footer__container .footer__cards {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: flex-start;
     gap: 0;
   }
   .footer__container .footer__cards .footer__resources {
-    width: 434px;
+    width: 70%;
   }
   .footer__container .footer__cards .footer__resources .footer__content {
-    width: 434px;
+    justify-content: space-evenly;
   }
   .footer__container .footer__cards .footer__resources .footer__content .footer__consult, .footer__container .footer__cards .footer__resources .footer__content .footer__training {
-    width: 217px;
+    width: 21.7rem;
   }
   .footer__container .footer__cards .footer__website {
-    width: 238px;
+    width: 20rem;
   }
 }
 @media (min-width: 1440px) {
-  .footer__container {
-    width: 1368px;
-  }
   .footer__container .footer__cards {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 0;
   }
   .footer__container .footer__cards .footer__resources {
-    width: 890px;
+    width: 50%;
+    align-items: flex-start;
   }
   .footer__container .footer__cards .footer__resources .footer__sub {
-    padding-left: 100px;
+    padding-left: 10rem;
   }
   .footer__container .footer__cards .footer__resources .footer__content {
-    width: 856px;
+    width: 100%;
+    justify-content: space-between;
   }
   .footer__container .footer__cards .footer__resources .footer__content .footer__consult, .footer__container .footer__cards .footer__resources .footer__content .footer__training {
-    width: 428px;
-    padding-left: 100px;
+    width: 40%;
   }
   .footer__container .footer__cards .footer__website {
-    width: 445px;
-    padding-left: 100px;
+    width: 20%;
   }
 }
 
