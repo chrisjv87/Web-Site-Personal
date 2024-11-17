@@ -1,36 +1,37 @@
 
 .project__container {
     display: flex;
+    width: calc(100vw - 3.2rem);
+    margin: 1.6rem;
+    gap: 1.6rem;
     flex-direction: column;
     align-items: center;
-    width: 343px;
-    margin: 16px;
     border-radius: 20px;
+
     .project__title {
-        margin: 24px;
-        margin-bottom: 16px;
+        margin: 2.4rem;
+        margin-bottom: 0;
     }
 
     .project__card {
         display: flex;
-        width: 295px;
-        margin: 24px;
-        margin-top: 0;
+        width: 100%;
         flex-direction: column;
-        gap: 12px;
-        border-radius: 20px;
+        align-items: center;
+        gap: 1.6rem;
 
         .project__buttons {
             display: flex;
-            width: 279px;
-            margin: 16px 8px 0 8px;
+            width: calc(100% - 3.2rem);
             align-items: center;
+            justify-content: center;
+            margin: 0 1.6rem;
 
             .project__containerImg {
                 display: flex;
-                width: 211px;
-                height: 159px;
-                margin: 4px;
+                min-width: 24rem;
+                max-width: 40rem;
+                margin: 0 1.2rem;
                 align-items: center;
                 justify-content: center;
             }
@@ -38,66 +39,53 @@
         
         .project__content {
             display: flex;
-            width: 263px;
-            margin: 16px;
+            width: calc(100% - 4.8rem);
+            margin: 2.4rem;
             margin-top: 0;
             flex-direction: column;
             text-align: center;
-            gap: 8px;
+            gap: .8rem;
 
             .project__links {
                 display: flex;
-                justify-content: space-evenly;
-                margin: 8px;
+                justify-content: center;
+                gap: 1.6rem;
             }
         }
     }
 
     @media(min-width: 768px) {
-        width: 720px;
-        margin: 24px;
+        width: calc(100vw - 4.8rem);
+        margin: 2.4rem;
+        gap: 2.4rem;
 
         .project__title {
-            margin: 32px;
-            margin-bottom: 24px;
+            margin: 3.2rem;
+            margin-bottom: 0;
         }
 
         .project__card {
-            width: 656px;
-            margin: 32px;
-            margin-top: 0;
-            gap: 16px;
+            gap: 2.4rem;
 
             .project__buttons {
-                display: flex;
-                width: 608px;
-                margin: 24px;
-                margin-bottom: 0;
-
+                width: 60%;
+                margin: 0 2.4rem;
     
                 .project__containerImg {
-                    display: flex;
-                    width: 510px;
-                    height: 350px;
-                    align-items: center;
-                    justify-content: center;
+                    min-width: 40rem;
+                    max-width: 60rem;
+                    margin: 0 1.6rem;
                 }
             }
 
             .project__content {
-                display: flex;
-                width: 600px;
-                margin: 24px;
+                width: calc(100% - 6.4rem);
+                margin: 3.2rem;
                 margin-top: 0;
-                flex-direction: column;
-                justify-content: center;
-                text-align: center;
-                gap: 12px;
+                gap: 1.2rem;
     
                 .project__links {
-                    display: flex;
-                    justify-content: space-evenly;
-                    margin: 12px;
+                    gap: 2.4rem;
                 }
             }
         }
@@ -105,50 +93,40 @@
     }
 
     @media(min-width: 1440px) {
-        width: 1376px;
-        margin: 32px;
+        width: calc(100vw - 6.4rem);
+        margin: 3.2rem;
+        gap: 3.2rem;
 
         .project__title {
-            margin: 48px;
-            margin-bottom: 32px;
+            margin: 4.8rem;
+            margin-bottom: 0;
         }
 
         .project__card {
-            width: 1280px;
-            height: 600px;
-            margin:48px;
-            margin-top: 0;
+            gap: 3.2rem;
             flex-direction: row-reverse;
-            gap: 0;
+            margin-bottom: 4.8rem;
 
             .project__buttons {
-                display: flex;
-                width: 714px;
-                margin: 32px;
+                width: calc(100% - 9.6rem);
+                margin-right: 4.8rem;
                 margin-left: 0;
-
     
                 .project__containerImg {
-                    display: flex;
-                    width: 586px;
-                    height: 436px;
+                    min-width: 60rem;
+                    max-width: 80rem;
+                    margin: 0 2.4rem;
                 }
             }
 
             .project__content {
-                display: flex;
-                width: 500px;
-                margin: 32px;
+                width: calc(100% - 9.6rem);
+                margin: 4.8rem;
                 margin-right: 0;
-                flex-direction: column;
-                justify-content: center;
-                text-align: center;
-                gap: 16px;
+                gap: 1.6rem;
     
                 .project__links {
-                    display: flex;
-                    justify-content: space-evenly;
-                    margin: 16px;
+                    margin: 1.6rem;
                 }
             }
         }

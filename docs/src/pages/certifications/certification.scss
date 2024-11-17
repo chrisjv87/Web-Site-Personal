@@ -1,165 +1,143 @@
 
 .certification__container {
     display: flex;
+    width: calc(100vw - 3.2rem);
+    margin: 1.6rem;
+    gap: 1.6rem;
     flex-direction: column;
     align-items: center;
-    width: 343px;
-    margin: 16px;
     border-radius: 20px;
 
     .certification__title {
-        margin: 24px;
-        margin-bottom: 16px;
+        margin: 2.4rem;
+        margin-bottom: 0;
     }
 
     .certification__description {
-        margin: 0 24px;
+        margin: 0 2.4rem;
     }
 
     .certification__social {
-        margin: 24px;
+        margin: 2.4rem;
         margin-top: 0;
     }
 
     .certification__card {
         display: flex;
-        width: 295px;
-        margin: 16px 24px;
+        width: 100%;
         flex-direction: column;
-        border-radius: 15px;
-        gap: 12px;
+        align-items: center;
+        gap: 1.6rem;
 
         .certification__buttons {
             display: flex;
-            width: 279px;
-            margin: 16px 8px 0 8px;
+            width: calc(100% - 3.2rem);
             align-items: center;
+            justify-content: center;
+            margin: 0 1.6rem;
 
             .certification__containerImg {
                 display: flex;
-                width: 211px;
-                height: 159px;
-                margin: 4px;
+                min-width: 24rem;
+                max-width: 40rem;
+                margin: 0 1.2rem;
                 align-items: center;
                 justify-content: center;
-                border-radius: 10px;
-                // border: 1px solid black;
             }
         }
 
         .certification__content {
             display: flex;
-            width: 263px;
-            margin: 16px;
-            margin-top: 0;
+            width: calc(100% - 4.8rem);
+            margin: 0 2.4rem;
             flex-direction: column;
             text-align: center;
-            gap: 8px;
+            gap: .8rem;
         }
     }
 
     @media(min-width: 768px) {
-        width: 720px;
-        margin: 24px;
+        width: calc(100vw - 4.8rem);
+        margin: 2.4rem;
+        gap: 2.4rem;
 
         .certification__title {
-            margin: 32px;
-            margin-bottom: 24px;
+            margin: 3.2rem;
+            margin-bottom: 0;
         }
     
         .certification__description {
-            margin: 0 32px;
+            margin: 0 3.2rem;
         }
     
         .certification__social {
-            margin: 32px;
+            margin: 3.2rem;
             margin-top: 0;
         }
 
         .certification__card {
-            width: 656px;
-            margin: 24px 32px;
-            gap: 16px;
+            gap: 2.4rem;
 
             .certification__buttons {
-                display: flex;
-                width: 608px;
-                margin: 24px;
-                margin-bottom: 0;
-
+                width: calc(100% - 4.8rem);
+                margin: 0 2.4rem;
     
                 .certification__containerImg {
-                    display: flex;
-                    width: 510px;
-                    height: 350px;
-                    align-items: center;
-                    justify-content: center;
-                    // border: 1px solid black;
+                    min-width: 40rem;
+                    max-width: 60rem;
+                    margin: 0 1.6rem;
                 }
             }
 
             .certification__content {
-                display: flex;
-                width: 600px;
-                margin: 24px;
+                width: calc(100% - 6.4rem);
+                margin: 0 3.2rem;
                 margin-top: 0;
-                flex-direction: column;
-                justify-content: center;
-                text-align: center;
-                gap: 12px;
+                gap: 1.2rem;
             }
         }
     }
 
     @media(min-width: 1440px) {
-        width: 1376px;
-        margin: 32px;
+        width: calc(100vw - 6.4rem);
+        margin: 3.2rem;
+        gap: 3.2rem;
 
         .certification__title {
-            margin: 48px;
-            margin-bottom: 32px;
+            margin: 4.8rem;
+            margin-bottom: 0;
         }
     
         .certification__description {
-            margin: 0 48px;
+            margin: 0 4.8rem;
         }
     
         .certification__social {
-            margin: 48px;
+            margin: 4.8rem;
             margin-top: 0;
         }
 
         .certification__card {
-            width: 1280px;
-            height: 600px;
-            margin: 32px 48px;
+            gap: 3.2rem;
             flex-direction: row-reverse;
-            gap: 0;
 
             .certification__buttons {
-                display: flex;
-                width: 714px;
-                margin: 32px;
+                width: calc(100% - 9.6rem);
+                margin-right: 4.8rem;
                 margin-left: 0;
-
     
                 .certification__containerImg {
-                    display: flex;
-                    width: 586px;
-                    height: 436px;
-                    // border: 1px solid black;
+                    min-width: 60rem;
+                    max-width: 80rem;
+                    margin: 0 2.4rem;
                 }
             }
 
             .certification__content {
-                display: flex;
-                width: 500px;
-                margin: 32px;
+                width: calc(100% - 9.6rem);
+                margin-left: 4.8rem;
                 margin-right: 0;
-                flex-direction: column;
-                justify-content: center;
-                text-align: center;
-                gap: 16px;
+                gap: 1.6rem;
             }
         }
     }

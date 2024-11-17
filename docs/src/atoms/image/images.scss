@@ -1,9 +1,7 @@
 
 .img {
     display: inline-block;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    object-fit: cover;
 }
 
 .header__logo {
@@ -27,7 +25,7 @@
     height: 361px;
     margin: 12px;
     border-radius: 20px;
-    background-image: url('../assets/img/profile.jpeg');
+    // background-image: url('../assets/img/profile.jpeg');
     
     @media(min-width: 768px) {
         width: 368px;
@@ -44,43 +42,15 @@
 
 
 .about__image {
-    width: 239px;
-    height: 371px;
-    margin: 12px;
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
-    background-image: url('../assets/img/about-me.jpeg');
-
-    @media(min-width: 768px) {
-        width: 368px;
-        height: 468px;
-        margin: 16px;
-    };
-    
-    @media(min-width: 1440px) {
-        width: 452px;
-        height: 652px;
-        margin: 24px;
-    };
 }
 
 .project__image {
-    width: 187px;
-    height: 137px;
-    margin: 12px;
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
-    background-image: url('../assets/img/projects.jpg');
-
-    @media(min-width: 768px) {
-        width: 478px;
-        height: 318px;
-        margin: 16px;
-    };
-    
-    @media(min-width: 1440px) {
-        width: 538px;
-        height: 388px;
-        margin: 24px;
-    };
 }
 
 .skills__icon {
@@ -91,21 +61,7 @@
 }
 
 .certification__image {
-    width: 187px;
-    height: 137px;
-    margin: 12px;
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
-    background-image: url('../assets/img/projects.jpg');
-    
-    @media(min-width: 768px) {
-        width: 478px;
-        height: 318px;
-        margin: 16px;
-    };
-    
-    @media(min-width: 1440px) {
-        width: 538px;
-        height: 388px;
-        margin: 24px;
-    };
 }

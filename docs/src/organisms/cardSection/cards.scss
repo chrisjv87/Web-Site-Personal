@@ -13,25 +13,6 @@
         align-items: center;
         padding: 2.4rem;
         gap: 1.6rem;
-    
-        .card__content {
-            .card__about {
-                background-image: url('../assets/img/sections/aboutMe.jpeg');
-                background-position: top;
-            }
-        
-            .card__projects {
-                background-image: url('../assets/img/sections/projects.jpeg');
-            }
-        
-            .card__skills {
-                background-image: url('../assets/img/sections/skills.jpeg');
-            }
-        
-            .card__certifications {
-                background-image: url('../assets/img/sections/certifications.png');
-            }
-        }
     }
 
     @media (min-width: 768px) {
