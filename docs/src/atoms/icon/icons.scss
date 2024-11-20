@@ -18,6 +18,21 @@
     }
 }
 
+.icon__logo {
+    background-image: url('../assets/icons/chrisjv87_logo.svg');
+    width: 12rem;
+    height: 4rem;
+
+    @media (min-width: 768px) {
+        width: 15rem;
+        height: 5rem;
+    }
+    @media (min-width: 1440px) {
+        width: 18rem;
+        height: 6rem;
+    }
+}
+
 .icon__linkedin {
     background-image: url('../assets/icons/Icon-Linkdin.svg');
 }

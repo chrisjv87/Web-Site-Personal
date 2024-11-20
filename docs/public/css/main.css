@@ -263,6 +263,24 @@ html {
   }
 }
 
+.icon__logo {
+  background-image: url("../assets/icons/chrisjv87_logo.svg");
+  width: 12rem;
+  height: 4rem;
+}
+@media (min-width: 768px) {
+  .icon__logo {
+    width: 15rem;
+    height: 5rem;
+  }
+}
+@media (min-width: 1440px) {
+  .icon__logo {
+    width: 18rem;
+    height: 6rem;
+  }
+}
+
 .icon__linkedin {
   background-image: url("../assets/icons/Icon-Linkdin.svg");
 }
@@ -288,43 +306,10 @@ html {
   object-fit: cover;
 }
 
-.header__logo {
-  width: 80px;
-  height: 40px;
-  background-image: url("../assets/img/Logo-Chrisjv87.svg");
-}
-@media (min-width: 768px) {
-  .header__logo {
-    width: 100px;
-    height: 50px;
-  }
-}
-@media (min-width: 1440px) {
-  .header__logo {
-    width: 120px;
-    height: 60px;
-  }
-}
-
 .hero__image {
-  width: 271px;
-  height: 361px;
-  margin: 12px;
+  width: 100%;
+  height: 100%;
   border-radius: 20px;
-}
-@media (min-width: 768px) {
-  .hero__image {
-    width: 368px;
-    height: 468px;
-    margin: 16px;
-  }
-}
-@media (min-width: 1440px) {
-  .hero__image {
-    width: 460px;
-    height: 560px;
-    margin: 24px;
-  }
 }
 
 .about__image {
@@ -355,21 +340,17 @@ html {
 .card__content {
   display: flex;
   width: 100%;
-  height: 22.5rem;
   align-items: center;
   justify-content: center;
 }
 .card__content .card__image {
   display: inline-block;
-  position: relative;
   width: 100%;
-  min-width: 30.3rem;
-  max-width: 62rem;
-  height: 100%;
+  min-width: 30rem;
+  max-width: 60rem;
+  max-height: 30rem;
+  position: relative;
   border-radius: 20px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 .card__content .card__image .card__button {
   display: inline-block;
@@ -379,23 +360,17 @@ html {
   transform: translateX(-50%);
 }
 @media (min-width: 768px) {
-  .card__content {
-    height: 35rem;
-  }
   .card__content .card__image {
-    min-width: 62rem;
-    max-width: 140rem;
-    height: 100%;
+    min-width: 60rem;
+    max-width: 80rem;
+    max-height: 40rem;
   }
 }
 @media (min-width: 1440px) {
-  .card__content {
-    height: 40rem;
-  }
   .card__content .card__image {
-    min-width: 50rem;
-    max-width: 150rem;
-    height: 100%;
+    min-width: 40rem;
+    max-width: 80rem;
+    height: 50rem;
   }
 }
 
@@ -537,12 +512,12 @@ html {
   align-items: center;
   justify-content: space-evenly;
   border-radius: 20px;
-  gap: 1.6rem;
+  gap: 1.2rem;
 }
 .hero__profile .hero__container-img {
-  display: flex;
-  width: 100%;
-  height: 38.5rem;
+  width: 80%;
+  min-width: 27rem;
+  max-width: 30rem;
   margin-top: 2.4rem;
   justify-content: center;
   align-items: center;
@@ -550,10 +525,10 @@ html {
 .hero__profile .hero__content {
   display: flex;
   width: 100%;
-  margin-bottom: 3.6rem;
-  gap: 1.2rem;
+  margin-bottom: 2.4rem;
   flex-direction: column;
   align-items: center;
+  gap: 1.2rem;
 }
 @media (min-width: 768px) {
   .hero__profile {
@@ -561,15 +536,17 @@ html {
     margin: 2.4rem;
     margin-bottom: 4.8rem;
     gap: 2.4rem;
+    flex-direction: row-reverse;
   }
   .hero__profile .hero__container-img {
-    width: 100%;
-    height: 50rem;
-    margin-top: 3.2rem;
+    width: 40%;
+    min-width: 30rem;
+    max-width: 40rem;
+    margin: 3.2rem 0;
   }
   .hero__profile .hero__content {
-    width: 100%;
-    margin-bottom: 4.8rem;
+    width: 40%;
+    margin: 3.2rem 0;
     gap: 2.4rem;
   }
 }
@@ -582,8 +559,9 @@ html {
     gap: 3.2rem;
   }
   .hero__profile .hero__container-img {
-    width: 51rem;
-    height: 61rem;
+    width: 25%;
+    min-width: 40rem;
+    max-width: 50rem;
     margin: 4.8rem;
   }
   .hero__profile .hero__content {
@@ -628,7 +606,6 @@ html {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    place-items: center;
     padding: 4.8rem;
   }
 }
