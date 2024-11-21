@@ -78,6 +78,9 @@ async function templateMain (page = 'principalPage') {
             await addListenersPages();
         }
 
+        adjustMenuDisplay();
+
+
     } catch (error) {
         console.log('No se cargo el contenido del main', error);
     }

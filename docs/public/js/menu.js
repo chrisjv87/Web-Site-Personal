@@ -14,7 +14,6 @@ function closeMenuOnClickOutside(event) {
     const buttonMenu = document.getElementById('headerButton');
     buttonMenu.addEventListener('click', menuDeploy);
 
-    // Verifica si el clic fue fuera del menú y el botón de apertura
     if (!menu.contains(event.target) && !buttonMenu.contains(event.target)) {
         menu.style.display = 'none';
         document.removeEventListener('click', closeMenuOnClickOutside);

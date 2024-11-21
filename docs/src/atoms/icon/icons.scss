@@ -6,6 +6,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    box-sizing: border-box;
 
     @media(min-width: 768px) {
         width: 25px;
@@ -20,16 +21,16 @@
 
 .icon__logo {
     background-image: url('../assets/icons/chrisjv87_logo.svg');
-    width: 12rem;
-    height: 4rem;
+    height: 3rem;
+    width: 7.5rem;
 
     @media (min-width: 768px) {
-        width: 15rem;
-        height: 5rem;
+        height: 4rem;
+        width: 10rem;
     }
     @media (min-width: 1440px) {
-        width: 18rem;
-        height: 6rem;
+        height: 5rem;
+        width: 12.5rem;
     }
 }
 
