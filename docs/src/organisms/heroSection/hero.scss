@@ -3,7 +3,8 @@
     display: flex;
     width: calc(100vw - 3.2rem);
     margin: 1.6rem;
-    margin-bottom: 3.2rem;
+    margin-bottom: 2.4rem;
+    margin-top: 0;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
@@ -33,7 +34,8 @@
     @media(min-width: 768px) {
         width: calc(100vw - 4.8rem);
         margin: 2.4rem;
-        margin-bottom: 4.8rem;
+        margin-bottom: 3.2rem;
+        margin-top: 0;
         gap: 2.4rem;
         flex-direction: row-reverse;
 
@@ -54,7 +56,8 @@
     @media(min-width: 1440px) {
         width: calc(100vw - 6.4rem);
         margin: 3.2rem;
-        margin-bottom: 6.4rem;
+        margin-bottom: 4.8rem;
+        margin-top: 0;
         flex-direction: row-reverse;
         gap: 3.2rem;
         

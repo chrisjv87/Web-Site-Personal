@@ -8,6 +8,7 @@ body {
         position: fixed;
         z-index: 1000;
         background-color: white;
+        margin-bottom: 2.4rem;
 
         @media(min-width: 768px) {
             margin-bottom: 3.2rem;
@@ -21,12 +22,19 @@ body {
         padding-top: 7.4rem;
         margin-bottom: 2.4rem; 
         @media(min-width: 768px) {
-            padding-top: 8.4rem;
+            padding-top: 9.2rem;
             margin-bottom: 3.2rem;
         }
         @media(min-width: 1440px) {
-            padding-top: 9.4rem;
+            padding-top: 11.8rem;
             margin-bottom: 4.8rem;
         }
+    }
+
+    .footer {
+        background-color: white;
+        box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 2rem 2rem 0 0;
+
     }
 }
